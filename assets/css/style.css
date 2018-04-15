@@ -6,9 +6,9 @@
     src: url('./fonts/heroes_legend/HeroesLegend.ttf');
 }
 
-nav {
-    background-color: #7858af;
-    font-family: 'Racing Sans One', cursive;
+.divSpacing {
+    padding-bottom: 92px;
+    padding-top: 50px;
 }
 
 h1, h2, h3 {
@@ -36,11 +36,18 @@ h1, h2, h3 {
     margin-left: 15px;
 }
 
+/* Navigation Bar CSS */
+nav {
+    background-color: #7858af;
+    font-family: 'Racing Sans One', cursive;
+}
+
 .brand-logo {
     font-size: 10px;
     margin-left: 6px;
 }
 
+/* Home Screen CSS */
 #homeImage{
     width: 100%;
     height: 1000px;
@@ -84,40 +91,55 @@ h1, h2, h3 {
     margin-bottom: 15px;
 }
 
-.profilePic {
-    height: 305px;
-    width: 345px;
-    margin-left: 85px;
-    border: solid 10px #7858af7a;
+.tanDiv {
+    background-color: #f3efe1;
+    margin-top: 30px;
 }
 
-.profileDiv {
-    margin-top: 30px;
-    margin-bottom: 100px;
+/* Profile Section CSS */
+.basicDiv {
+    margin-left: 30px;
+}
+
+.basicText {
+    margin-left: 30px;
+}
+
+.profilePic {
+    height: 305px;
+    width: 365px;
+    margin-left: 6px;
+    border: solid 10px #7858af7a;
 }
 
 .aboutMe {
     margin-left: 60px;
 }
 
-.tanDiv {
-    background-color: #f3efe1;
-    margin-top: 30px;
-}
-
-.whiteDiv {
-    margin-top: 30px;
-}
-
 /* Experiences Section CSS */
 .experienceTitle {
     font-weight: bolder;
     font-size: 20px; 
+    color: black;
+
 }
 
-.dates {
+.experienceDate {
     font-size: 14px;
     font-style: italic;
+    margin-top: -30px;
+    margin-left: 38px;
+}
+
+.experienceLocation {
+    font-size: 14px;
+    font-style: italic;
+    margin-top: -31px;
+    margin-left: 38px;
+}
+
+.dateLogo {
+    margin-top: 6px;
 }
 
 /* Contact Section CSS */
