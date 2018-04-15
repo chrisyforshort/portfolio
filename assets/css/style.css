@@ -100,11 +100,41 @@ h1, h2, h3 {
     margin-left: 60px;
 }
 
-.experiencesDiv {
+.tanDiv {
     background-color: #f3efe1;
     margin-top: 30px;
 }
 
-.skillsDiv {
+.whiteDiv {
     margin-top: 30px;
+}
+
+/* Experiences Section CSS */
+.experienceTitle {
+    font-weight: bolder;
+    font-size: 20px; 
+}
+
+.dates {
+    font-size: 14px;
+    font-style: italic;
+}
+
+/* Contact Section CSS */
+.contactDiv{
+    z-index: 1;
+    position: relative;
+    bottom: 60%;
+}
+
+.contact{
+    color: aliceblue;
+}
+
+#contactImage {
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    z-index: 0;
+    opacity: .3;
 }
