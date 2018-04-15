@@ -11,6 +11,29 @@ nav {
     font-family: 'Racing Sans One', cursive;
 }
 
+h1, h3 {
+    font-family: 'Racing Sans One', cursive;
+    margin-bottom: 0px;
+}
+
+.description {
+    color: gray;
+    font-style: italic;
+}
+
+.paragraph {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+.bold {
+    font-weight: bold; 
+}
+
+.leftDiv {
+    margin-left: 15px;
+}
+
 .brand-logo {
     font-size: 10px;
     margin-left: 6px;
@@ -27,16 +50,18 @@ nav {
 .nameDiv{
     z-index: 1;
     position: relative;
-    top: -700px;
+    top: -780px;
     color: aliceblue;
     font-family: "myfont";
     font-size: 30px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .name {
     font-size: 100px;
-    margin-bottom: 15px;
     border-bottom: solid 2px;
+    line-height: 1.3;
+    margin-bottom: 20px;
 }
 
 .interactive{
@@ -52,15 +77,26 @@ nav {
 
 .topicDiv {
     border-bottom: solid 1px gray;
+    margin-bottom: 15px;
 }
 
 .profilePic {
     height: 305px;
-    width: 340px;
+    width: 345px;
     margin-left: 85px;
+    border: solid 10px #7858af7a;
 }
 
 .profileDiv {
     margin-top: 30px;
-    margin-bottom: 60px;
+    margin-bottom: 100px;
+}
+
+.aboutMe {
+    margin-left: 60px;
+}
+
+.experiencesDiv {
+    background-color: #f3efe1;
+    color: #7858af;
 }
