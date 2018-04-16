@@ -108,7 +108,7 @@ nav {
 .profilePic {
     height: 305px;
     width: 365px;
-    margin-left: 6px;
+    margin-left: 65px;
     border: solid 10px #7858af7a;
 }
 
@@ -139,7 +139,33 @@ nav {
 }
 
 .dateLogo {
-    margin-top: 6px;
+    margin-top: 7px;
+}
+
+.longTitleText {
+    margin-top: 33px;
+    font-weight: bold;
+}
+
+.titleText {
+    margin-top: 3px;
+    font-weight: bold;
+}
+
+#scText {
+    margin-top: 40px;
+}
+
+#purdueText {
+    margin-top: 3px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+#minorsText {
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 0px;
 }
 
 /* Contact Section CSS */
