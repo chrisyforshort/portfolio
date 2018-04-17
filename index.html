@@ -1,328 +1,528 @@
+<!DOCTYPE html>
+<html>
 
-  <!DOCTYPE html>
-  <html>
-    <head>
-      <!--Import Google Icon Font-->
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import style.css-->
-      <link rel="stylesheet" href="./assets/css/style.css">
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import style.css-->
+    <link rel="stylesheet" href="./assets/css/style.css">
 
-      <!-- Import Materialize Icons -->
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Import Materialize Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    </head>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
 
-    <body>
-        <!-- NavBar -->
-        <div class="scrollspy">
+<body>
+    <!-- NavBar -->
+    <div class="scrollspy">
         <nav class="scrollspy">
             <div class="nav-wrapper scrollspy">
-              <a href="#!" class="brand-logo">Christina Wu</a>
-              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-              <ul class="right hide-on-med-and-down">
-                <li><a href="#">Profile</a></li>
-                <li><a href="#">Experiences</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Interests</a></li>
-                <li><a href="#">Contact</a></li>
-              </ul>
+                <a href="#!" class="brand-logo">Christina Wu</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li>
+                        <a href="#">Profile</a>
+                    </li>
+                    <li>
+                        <a href="#">Experiences</a>
+                    </li>
+                    <li>
+                        <a href="#">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#">Interests</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
             </div>
-          </nav>
-        
-          <ul class="sidenav scrollSpy" id="mobile-demo">
-            <li><a href="#">Profile</a></li>
-            <li><a href="#">Experiences</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Interests</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div>
+        </nav>
 
-        <!-- Home Screen -->
-        <section class="overlay" id="home">
-            <img id="homeImage" src="./assets/images/comicWoman.jpg">
-            <div class="container nameDiv">
-                <h1 class="center-align name">Christina Sarah Wu</h2>
+        <ul class="sidenav scrollSpy" id="mobile-demo">
+            <li>
+                <a href="#">Profile</a>
+            </li>
+            <li>
+                <a href="#">Experiences</a>
+            </li>
+            <li>
+                <a href="#">Skills</a>
+            </li>
+            <li>
+                <a href="#">Projects</a>
+            </li>
+            <li>
+                <a href="#">Interests</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Home Screen -->
+    <section class="overlay" id="home">
+        <img id="homeImage" src="./assets/images/comicWoman.jpg">
+        <div class="container nameDiv">
+            <h1 class="center-align name">Christina Sarah Wu</h2>
                 <p class="center-align interactive">Interactive Portfolio</p>
+        </div>
+    </section>
+
+    <!-- Profile -->
+    <section>
+        <div class="divSpacing">
+            <div class="row">
+                <div class="col s2"></div>
+                <div class="col s8 center-align topicDiv">
+                    <h1 class="center-align">Profile</h1>
+                    <p class="center-align description">Web Developer & Seeker of Knowledge</p>
+                </div>
+                <div class="col s2"></div>
             </div>
-        </section>
-
-        <!-- Profile -->
-        <section>
-            <div class="divSpacing">
-                <div class="row">
-                    <div class="col s2"></div>
-                    <div class="col s8 center-align topicDiv">
-                        <h1 class="center-align">Profile</h1>
-                        <p class="center-align description">Web Developer & Seeker of Knowledge</p>
+            <div class="row">
+                <div class="col s2"></div>
+                <div class="col s2 center-align ">
+                    <div class="basicDiv">
+                        <h3 class="leftDiv">The Basics</h3>
+                        <p class="leftDiv left-align basicText">
+                            <span class="bold">Name:</span> Christina Sarah Wu</p>
+                        <p class="leftDiv left-align basicText">
+                            <span class="bold">Location:</span> Irvine, CA</p>
+                        <p class="leftDiv left-align basicText">
+                            <span class="bold">Age:</span> 24</p>
                     </div>
-                    <div class="col s2"></div>
                 </div>
-                <div class="row">
-                    <div class="col s2"></div>
-                    <div class="col s2 center-align ">
-                        <div class="basicDiv">
-                            <h3 class="leftDiv">The Basics</h3>
-                            <p class="leftDiv left-align basicText"><span class="bold">Name:</span> Christina Sarah Wu</p>
-                            <p class="leftDiv left-align basicText"><span class="bold">Location:</span> Irvine, CA</p>
-                            <p class="leftDiv left-align basicText"><span class="bold">Age:</span> 24</p>
-                        </div>
-                    </div>
-                    <div class="col s3 center-align">
-                        <img class="circle responsive img profilePic" src="./assets/images/profilePic.jpg">
-                    </div>
-                    <div class="col s3 center-align">                       
-                        <h3 class="aboutMe">About Me</h3>
-                        <p class="paragraph aboutMe">Christina Wu is a Southern California native currently residing in Irvine, California. 
-                            She has previously lived abraod in Shanghai, China and Taipei, Taiwan. She graduated 
-                            from Purdue University with a BA in Sociology with a Law and Society concentration. 
-                            She also has minors in Psycology and Forensic Science. She is currently enrolled in 
-                            the UCI Coding Boot Camp and a Udacity Google Scholarship recipient.
-                        </p>
-                    </div>
-                    <div class="col s2"></div>
+                <div class="col s3 center-align">
+                    <img class="circle responsive img profilePic" src="./assets/images/profilePic.jpg">
+                </div>
+                <div class="col s3 center-align">
+                    <h3 class="aboutMe">About Me</h3>
+                    <p class="paragraph aboutMe">Christina Wu is a Southern California native currently residing in Irvine, California. She has previously
+                        lived abraod in Shanghai, China and Taipei, Taiwan. She graduated from Purdue University with a BA
+                        in Sociology with a Law and Society concentration. She also has minors in Psycology and Forensic
+                        Science. She is currently enrolled in the UCI Coding Boot Camp and a Udacity Google Scholarship recipient.
+                    </p>
+                </div>
+                <div class="col s2"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiences Section -->
+    <section>
+        <div class="divSpacing tanDiv">
+            <div class="row">
+                <div class="col s2"></div>
+                <div class="col s8 center-align topicDiv">
+                    <h1 class="center-align">Experiences</h1>
+                    <p class="description">"Character cannot be developed in ease and quiet. Only through experience of trial and suffering can
+                        the soul be strengthened, ambition inspired, and sucess achieved." - Helen Keller </p>
+                </div>
+                <div class="col s2"></div>
+            </div>
+            <!-- Education Section -->
+            <div class="row">
+                <div class="col s2"></div>
+                <div class="col s10">
+                    <h2>Education</h2>
                 </div>
             </div>
-        </section>
-
-        <!-- Experiences Section -->
-        <section>
-            <div class="divSpacing tanDiv">
-                <div class="row">
-                    <div class="col s2"></div>
-                        <div class="col s8 center-align topicDiv">
-                            <h1 class="center-align">Experiences</h1>
-                            <p class="description">"Character cannot be developed in ease and quiet. Only through experience of trial and suffering can the soul be strengthened, ambition inspired, and sucess achieved." - Helen Keller </p>
-                        </div>
-                    <div class="col s2"></div>
+            <div class="row">
+                <div class="col s2"></div>
+                <div class="col s2">
+                    <a href="https://bootcamp.ce.uci.edu/coding/" class="experienceTitle">University of California, Irvine</a>
+                    <br>
+                    <i class="small material-icons dateLogo">date_range</i>
+                    <p class="experienceDate">January 2018 - July 2018</p>
+                    <i class="small material-icons">location_on</i>
+                    <p class="experienceLocation">Irvine, California</p>
                 </div>
-                <!-- Education Section -->
-                <div class="row">
-                    <div class="col s2"></div>
-                    <div class="col s10">
-                            <h2>Education</h2>
-                    </div>
+                <div class="col s6">
+                    <p class="longTitleText">Coding Boot Camp</p>
+                    <p>Six month long full stacked web developement boot camp focused on building practical real world application
+                        while learning. The course covers computer science applied to Javascript, browser based technologies,
+                        databases, Node.js, quality assurance, internet marketing, and deployment. Some of the languages/skills
+                        learned include HTML, CSS, Javascript, React.js, MySQL, Git, and more.
+                    </p>
                 </div>
-                <div class="row">
-                    <div class="col s2"></div>
-                    <div class="col s2">
-                        <a href="https://bootcamp.ce.uci.edu/coding/" class="experienceTitle">University of California, Irvine</a> <br>
-                        <i class="small material-icons dateLogo">date_range</i><p class="experienceDate">January 2018 - July 2018</p>
-                        <i class="small material-icons">location_on</i><p class="experienceLocation">Irvine, California</p>
-                    </div>
-                    <div class="col s6">
-                       <p class="longTitleText">Coding Boot Camp</p>
-                        <p>Six month long full stacked web developement boot camp focused on building practical real world application while learning. 
-                            The course covers computer science applied to Javascript, browser based technologies, databases, Node.js, quality assurance, internet marketing, and deployment. 
-                            Some of the languages/skills learned include HTML, CSS, Javascript, React.js, MySQL, Git, and more.  
-                        </p>
-                    </div>
-                    <div class="col s2"></div>
-                </div>
-                <div class="row">
-                    <div class="col s2"></div>
-                    <div class="col s2">
-                        <span class="experienceTitle">Santa Clara Law School</span><br>
-                        <i class="small material-icons dateLogo">date_range</i><p class="experienceDate">August 2016 - May 2017</p>
-                        <i class="small material-icons">location_on</i><p class="experienceLocation">Santa Clara, California</p>
-                    </div>
-                    <div class="col s6">
-                        <p id="scText">Organizations: Board Member – Asian Pacific American Law Student Association; Member – Women and Law Association</p>
-                    </div>
-                    <div class="col s2"></div>
-                </div>
-                <div class="row">
-                    <div class="col s2"></div>
-                    <div class="col s2">
-                        <span class="experienceTitle">Purdue University</span><br>
-                        <i class="small material-icons dateLogo">date_range</i><p class="experienceDate">August 2012 - December 2015</p>
-                        <i class="small material-icons">location_on</i><p class="experienceLocation">West Lafayette, Indiana</p>
-                    </div>
-                    <div class="col s6">
-                        <p id="purdueText">Bachelor of Arts, Sociology, Law and Society Concentration</p>
-                        <p id="minorsText">Minors in Psychology and Forensic Science</p>
-                        <p>Organizations: President – alpha Kappa Delta Phi; Board Member – Multicultural Greek Council; Member – Asian American
-                        Association</p>
-                    </div>
-                    <div class="col s2"></div>
-                </div>
-                <!-- Work Experience Section -->
-                <div class="row">
-                    <div class="col s2"></div>
-                    <div class="col s10">
-                        <h2>Work Experience</h2>
-                    </div>
-                </div>
-                <div class="row">
-                        <div class="col s2"></div>
-                        <div class="col s2">
-                            <span class="experienceTitle">Orange County Superior Court</span><br>
-                            <i class="small material-icons dateLogo">date_range</i><p class="experienceDate">May 2017 – July 2017</p>
-                            <i class="small material-icons">location_on</i><p class="experienceLocation">Santa Ana, California</p>
-                        </div>
-                        <div class="col s6">
-                            <p class="longTitleText">Judicial Extern</p>
-                            <p>     • Directly shadowed Judge Gerald Johnston in the Probate, Mental Health, and Elder Abuse court
-                                    • Researched and drafted law in motion memorandums under the mentorship of lead court researcher
-                                    • Observed trials and toured with other Judges in Criminal, Family, Civil, and Juvenile courts/facilities</p>
-                        </div>
-                        <div class="col s2"></div>
-                    </div>
-                    <div class="row">
-                            <div class="col s2"></div>
-                            <div class="col s2">
-                                <span class="experienceTitle">Wells Fargo Financial Advisors</span><br>
-                                <i class="small material-icons dateLogo">date_range</i><p class="experienceDate">June 2015 – August 2015</p>
-                                <i class="small material-icons">location_on</i><p class="experienceLocation">Irvine, California</p>
-                            </div>
-                            <div class="col s6">
-                                <p class="longTitleText">Intern</p>
-                                <p>    • Facilitated client relationships through the implementation of a robust digital client contact system
-                                        •Successful planning and execution of client seminar events and presentations for business development
-                                        • Designated liaison for maintaining business relationship communications between the office, clients, and advisors</p>
-                            </div>
-                            <div class="col s2"></div>
-                    </div>
-                    <div class="row">
-                            <div class="col s2"></div>
-                            <div class="col s2">
-                                <span class="experienceTitle">Jack O’Bryan Law Firm</span><br>
-                                <i class="small material-icons dateLogo">date_range</i><p class="experienceDate">September 2014 – May 2015</p>
-                                <i class="small material-icons">location_on</i><p class="experienceLocation">West Lafayette, Indiana</p>
-                            </div>
-                            <div class="col s6">
-                                    <p class="titleText">Legal Intern</p>
-                                <p>            • Analyzed client data to determine Social Security qualifications 
-                                        • Researched legal issues regarding early Social Security qualification based off of disabilities
-                                        • Drafted office memorandums for court motions used in the court of law</p>
-                            </div>
-                            <div class="col s2"></div>
-                    </div>
-                    <div class="row">
-                            <div class="col s2"></div>
-                            <div class="col s2">
-                                <span class="experienceTitle">All Americas, Inc.</span><br>
-                                <i class="small material-icons dateLogo">date_range</i><p class="experienceDate">Summer 2013 and 2014</p>
-                                <i class="small material-icons">location_on</i><p class="experienceLocation">Walnut, California</p>
-                            </div>
-                            <div class="col s6">
-                                    <p class="titleText">Camp Coordinator</p>
-                                <p>         • Coordinated an approximate total of 2,000 student schedules, increasing accountability for program attendance
-                                        • Developed provisional plans for effective classroom engagement and stimulating learning environments 
-                                        • Organized and coordinated with local businesses for daily luncheons and weekend excursion trips</p>
-                            </div>
-                            <div class="col s2"></div>
-                    </div>
-                    <div class="row">
-                            <div class="col s2"></div>
-                            <div class="col s2">
-                                <span class="experienceTitle">Irvine Digestive Disease Center</span><br>
-                                <i class="small material-icons dateLogo">date_range</i><p class="experienceDate">June 2012 – July 2012</p>
-                                <i class="small material-icons">location_on</i><p class="experienceLocation">Irvine, California </p>
-                            </div>
-                            <div class="col s6">
-                                    <p class="longTitleText">Administrative Assistant</p>
-                                <p>         • Conducted initial patient intake and checkout procedures
-                                        • Reorganization of office guidelines to insure added quality
-                                        • Managed patient charts and medication orders with pharmacies, laboratories, hospitals, and doctors’ offices</p>
-                            </div>
-                            <div class="col s2"></div>
-                    </div>
+                <div class="col s2"></div>
             </div>
-        </section>
+            <div class="row">
+                <div class="col s2"></div>
+                <div class="col s2">
+                    <span class="experienceTitle">Santa Clara Law School</span>
+                    <br>
+                    <i class="small material-icons dateLogo">date_range</i>
+                    <p class="experienceDate">August 2016 - May 2017</p>
+                    <i class="small material-icons">location_on</i>
+                    <p class="experienceLocation">Santa Clara, California</p>
+                </div>
+                <div class="col s6">
+                    <p id="scText">Organizations: Board Member – Asian Pacific American Law Student Association; Member – Women and Law
+                        Association
+                    </p>
+                </div>
+                <div class="col s2"></div>
+            </div>
+            <div class="row">
+                <div class="col s2"></div>
+                <div class="col s2">
+                    <span class="experienceTitle">Purdue University</span>
+                    <br>
+                    <i class="small material-icons dateLogo">date_range</i>
+                    <p class="experienceDate">August 2012 - December 2015</p>
+                    <i class="small material-icons">location_on</i>
+                    <p class="experienceLocation">West Lafayette, Indiana</p>
+                </div>
+                <div class="col s6">
+                    <p id="purdueText">Bachelor of Arts, Sociology, Law and Society Concentration</p>
+                    <p id="minorsText">Minors in Psychology and Forensic Science</p>
+                    <p>Organizations: President – alpha Kappa Delta Phi; Board Member – Multicultural Greek Council; Member
+                        – Asian American Association
+                    </p>
+                </div>
+                <div class="col s2"></div>
+            </div>
+            <!-- Work Experience Section -->
+            <div class="row">
+                <div class="col s2"></div>
+                <div class="col s10">
+                    <h2>Work Experience</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s2"></div>
+                <div class="col s2">
+                    <span class="experienceTitle">Orange County Superior Court</span>
+                    <br>
+                    <i class="small material-icons dateLogo">date_range</i>
+                    <p class="experienceDate">May 2017 – July 2017</p>
+                    <i class="small material-icons">location_on</i>
+                    <p class="experienceLocation">Santa Ana, California</p>
+                </div>
+                <div class="col s6">
+                    <p class="longTitleText">Judicial Extern</p>
+                    <p> • Directly shadowed Judge Gerald Johnston in the Probate, Mental Health, and Elder Abuse court • Researched
+                        and drafted law in motion memorandums under the mentorship of lead court researcher • Observed trials
+                        and toured with other Judges in Criminal, Family, Civil, and Juvenile courts/facilities</p>
+                </div>
+                <div class="col s2"></div>
+            </div>
+            <div class="row">
+                <div class="col s2"></div>
+                <div class="col s2">
+                    <span class="experienceTitle">Wells Fargo Financial Advisors</span>
+                    <br>
+                    <i class="small material-icons dateLogo">date_range</i>
+                    <p class="experienceDate">June 2015 – August 2015</p>
+                    <i class="small material-icons">location_on</i>
+                    <p class="experienceLocation">Irvine, California</p>
+                </div>
+                <div class="col s6">
+                    <p class="longTitleText">Intern</p>
+                    <p> • Facilitated client relationships through the implementation of a robust digital client contact system
+                        •Successful planning and execution of client seminar events and presentations for business development
+                        • Designated liaison for maintaining business relationship communications between the office, clients,
+                        and advisors</p>
+                </div>
+                <div class="col s2"></div>
+            </div>
+            <div class="row">
+                <div class="col s2"></div>
+                <div class="col s2">
+                    <span class="experienceTitle">Jack O’Bryan Law Firm</span>
+                    <br>
+                    <i class="small material-icons dateLogo">date_range</i>
+                    <p class="experienceDate">September 2014 – May 2015</p>
+                    <i class="small material-icons">location_on</i>
+                    <p class="experienceLocation">West Lafayette, Indiana</p>
+                </div>
+                <div class="col s6">
+                    <p class="titleText">Legal Intern</p>
+                    <p> • Analyzed client data to determine Social Security qualifications • Researched legal issues regarding
+                        early Social Security qualification based off of disabilities • Drafted office memorandums for court
+                        motions used in the court of law</p>
+                </div>
+                <div class="col s2"></div>
+            </div>
+            <div class="row">
+                <div class="col s2"></div>
+                <div class="col s2">
+                    <span class="experienceTitle">All Americas, Inc.</span>
+                    <br>
+                    <i class="small material-icons dateLogo">date_range</i>
+                    <p class="experienceDate">Summer 2013 and 2014</p>
+                    <i class="small material-icons">location_on</i>
+                    <p class="experienceLocation">Walnut, California</p>
+                </div>
+                <div class="col s6">
+                    <p class="titleText">Camp Coordinator</p>
+                    <p> • Coordinated an approximate total of 2,000 student schedules, increasing accountability for program
+                        attendance • Developed provisional plans for effective classroom engagement and stimulating learning
+                        environments • Organized and coordinated with local businesses for daily luncheons and weekend excursion
+                        trips
+                    </p>
+                </div>
+                <div class="col s2"></div>
+            </div>
+            <div class="row">
+                <div class="col s2"></div>
+                <div class="col s2">
+                    <span class="experienceTitle">Irvine Digestive Disease Center</span>
+                    <br>
+                    <i class="small material-icons dateLogo">date_range</i>
+                    <p class="experienceDate">June 2012 – July 2012</p>
+                    <i class="small material-icons">location_on</i>
+                    <p class="experienceLocation">Irvine, California </p>
+                </div>
+                <div class="col s6">
+                    <p class="longTitleText">Administrative Assistant</p>
+                    <p> • Conducted initial patient intake and checkout procedures • Reorganization of office guidelines to insure
+                        added quality • Managed patient charts and medication orders with pharmacies, laboratories, hospitals,
+                        and doctors’ offices</p>
+                </div>
+                <div class="col s2"></div>
+            </div>
+        </div>
+    </section>
 
-        <!-- Skills Section -->
-        <section>
-                <div class="divSpacing">
-                    <div class="row">
-                        <div class="col s2"></div>
-                        <div class="col s8 center-align topicDiv">
-                            <h1 class="center-align">Skills</h1>
-                            <p class="center-align description">"A closed mind is already defeated." - Zenyatta from Overwatch</p>
+    <!-- Skills Section -->
+    <section>
+        <div class="divSpacing greyDiv">
+            <div class="row">
+                <div class="col s2"></div>
+                <div class="col s8 center-align topicDiv">
+                    <h1 class="center-align">Skills</h1>
+                    <p class="center-align description">"A closed mind is already defeated." - Zenyatta from Overwatch</p>
+                </div>
+                <div class="col s2"></div>
+            </div>
+            <div class="row">
+                <div class="col s2"></div>
+                <div class="col s10 left-align">
+                    <h3>Technology Languages</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s2"></div>
+                <div class="col s8 cardDiv">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./assets/images/logos/javascript-logo.png">
                         </div>
-                        <div class="col s2"></div>
+                        <div class="card-action">
+                            <a href="#">Javascript</a>
+                        </div>
                     </div>
-                    <div class="row">
-                        <div class="col s2"></div>
-                        <div class="col s2 center-align">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./assets/images/logos/html5-logo.png">
                         </div>
-                        <div class="col s3 center-align">
+                        <div class="card-action">
+                            <a href="#">Html5</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./assets/images/logos/css4-logo.png">
+                        </div>
+                        <div class="card-action">
+                            <a href="#">CSS4</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./assets/images/logos/bash-logo.png">
+                        </div>
+                        <div class="card-action">
+                            <a href="#">Bash</a>
                         </div>
                     </div>
                 </div>
-            </section>
-    
-        <!-- Projects Section -->
-        <section>
-                <div class="tanDiv">
-                    <div class="row">
-                        <div class="col s2"></div>
-                        <div class="col s8 center-align topicDiv">
-                            <h1 class="center-align">Projects</h1>
-                            <p class="center-align description">"Leadership is working with goals and vision; management is working with objectives." - Russel L. Honoré</p>
-                        </div>
-                        <div class="col s2"></div>
-                    </div>
-                    <div class="row">
-                        <div class="col s2"></div>
-                        <div class="col s2 center-align">
-                        </div>
-                        <div class="col s3 center-align">
-                        </div>
+                <div class="col s2"></div>
+            </div>
+            <div class="row">
+                    <div class="col s2"></div>
+                    <div class="col s10 left-align">
+                        <h3>Tools</h3>
                     </div>
                 </div>
-            </section>
-        
-        <!-- Interests Section -->
-        <section>
-                <div class="whiteDiv">
-                    <div class="row">
-                        <div class="col s2"></div>
-                        <div class="col s8 center-align topicDiv">
-                            <h1 class="center-align">Interests</h1>
-                            <p class="center-align description">"With every year of playing, you want to relax one more muscle. Why? Because the more tense you are the less you can hear." - Yo-Yo Ma</p>
+                <div class="row">
+                    <div class="col s2"></div>
+                    <div class="col s8 cardDiv">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="./assets/images/logos/node-logo.png">
+                                </div>
+                                <div class="card-action">
+                                    <a href="#">Node</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                    <div class="card-image">
+                                        <img src="./assets/images/logos/sublime-logo.png">
+                                    </div>
+                                    <div class="card-action">
+                                        <a href="#">Sublime</a>
+                                    </div>
+                            </div>
+                            <div class="card">
+                                    <div class="card-image">
+                                        <img src="./assets/images/logos/vs-code-logo.png">
+                                    </div>
+                                    <div class="card-action">
+                                        <a href="#">VS Code</a>
+                                    </div>
+                            </div>
+                            <div class="card">
+                                    <div class="card-image">
+                                        <img src="./assets/images/logos/mamp-logo.png">
+                                    </div>
+                                    <div class="card-action">
+                                        <a href="#">Mamp</a>
+                                    </div>
+                            </div>
                         </div>
-                        <div class="col s2"></div>
+                    <div class="col s2"></div>
+                </div>
+                <div class="row">
+                    <div class="col s2"></div>
+                    <div class="col s2 left-align">
+                        <h3>Data</h3>
                     </div>
-                    <div class="row">
-                        <div class="col s2"></div>
-                        <div class="col s2 center-align">
-                        </div>
-                        <div class="col s3 center-align">
-                        </div>
+                    <div class="col s4 left-align">
+                        <h3>Frameworks</h3>
                     </div>
                 </div>
-            </section>
+                <div class="row">
+                    <div class="col s2"></div>
+                    <div class="col s2 cardDiv">
+                        <div class="card">
+                            <div class="card-image">
+                                 <img src="./assets/images/logos/sql-logo.png">
+                            </div>
+                            <div class="card-action">
+                                <a href="#">Sql</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s6 cardDiv">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="./assets/images/logos/express-logo.png">
+                                </div>
+                                <div class="card-action">
+                                    <a href="#">Express</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="./assets/images/logos/bootstrap-logo.png">
+                                </div>
+                                <div class="card-action">
+                                    <a href="#">Bootstrap</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="./assets/images/logos/materialize-logo.png">
+                                </div>
+                                <div class="card-action">
+                                    <a href="#">Materialize</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                    <div class="card-image">
+                                        <img src="./assets/images/logos/handlebars-logo.png">
+                                    </div>
+                                    <div class="card-action">
+                                        <a href="#">Handlebars.js</a>
+                                    </div>
+                                </div>
+                        </div>
+                    <div class="col s2"></div>
+                </div>
+        </div>
+    </section>
 
-        <!-- Contact Section -->
-        <section class="overlay">
-                <img id="contactImage" src="./assets/images/whaam.svg">
-                <div class="contactDiv">
-                    <div class="row">
-                        <div class="col s2"></div>
-                        <div class="col s8 center-align topicDiv">
-                            <h1 class="center-align contact">Contact</h1>
-                            <p class="center-align description">"But here's my number, so call me maybe." - Carly Rae Jepsen</p>
-                        </div>
-                        <div class="col s2"></div>
-                    </div>
-                    <div class="row">
-                        <div class="col s2"></div>
-                        <div class="col s2 center-align">
-                        </div>
-                        <div class="col s3 center-align">
-                        </div>
-                    </div>
+    <!-- Projects Section -->
+    <section>
+        <div class="tanDiv">
+            <div class="row">
+                <div class="col s2"></div>
+                <div class="col s8 center-align topicDiv">
+                    <h1 class="center-align">Projects</h1>
+                    <p class="center-align description">"Leadership is working with goals and vision; management is working with objectives." - Russel L. Honoré</p>
                 </div>
-            </section>
+                <div class="col s2"></div>
+            </div>
+            <div class="row">
+                <div class="col s2"></div>
+                <div class="col s2 center-align">
+                </div>
+                <div class="col s3 center-align">
+                </div>
+            </div>
+        </div>
+    </section>
 
-      <!--JavaScript at end of body for optimized loading-->
-      <script type="text/javascript" src="js/materialize.min.js"></script>
-      <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <!-- Interests Section -->
+    <section>
+        <div class="whiteDiv">
+            <div class="row">
+                <div class="col s2"></div>
+                <div class="col s8 center-align topicDiv">
+                    <h1 class="center-align">Interests</h1>
+                    <p class="center-align description">"With every year of playing, you want to relax one more muscle. Why? Because the more tense you are the
+                        less you can hear." - Yo-Yo Ma</p>
+                </div>
+                <div class="col s2"></div>
+            </div>
+            <div class="row">
+                <div class="col s2"></div>
+                <div class="col s2 center-align">
+                </div>
+                <div class="col s3 center-align">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="overlay">
+        <img id="contactImage" src="./assets/images/whaam.svg">
+        <div class="contactDiv">
+            <div class="row">
+                <div class="col s2"></div>
+                <div class="col s8 center-align topicDiv">
+                    <h1 class="center-align contact">Contact</h1>
+                    <p class="center-align description">"But here's my number, so call me maybe." - Carly Rae Jepsen</p>
+                </div>
+                <div class="col s2"></div>
+            </div>
+            <div class="row">
+                <div class="col s2"></div>
+                <div class="col s2 center-align">
+                </div>
+                <div class="col s3 center-align">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="./assets/javascript/app.js"></script>
-    </body>
-  </html>
+</body>
+
+</html>
