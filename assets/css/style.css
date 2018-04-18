@@ -38,8 +38,12 @@ h1, h2, h3 {
 
 /* Navigation Bar CSS */
 nav {
-    background-color: #7858af;
+    background-color: #7858afc4;
     font-family: 'Racing Sans One', cursive;
+}
+
+.navbar-fixed{
+    background-color: #7858af;
 }
 
 .brand-logo {
