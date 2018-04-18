@@ -17,30 +17,30 @@
 <body>
     <!-- NavBar -->
     <div class="scrollspy">
-        <nav class="scrollspy">
-            <div class="nav-wrapper scrollspy">
+        <nav>
+            <div class="nav-wrapper">
                 <a href="#!" class="brand-logo">Christina Wu</a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger">
                     <i class="material-icons">menu</i>
                 </a>
                 <ul class="right hide-on-med-and-down">
                     <li>
-                        <a href="#">Profile</a>
+                        <a href="#profileSection">Profile</a>
                     </li>
                     <li>
-                        <a href="#">Experiences</a>
+                        <a href="#experiencesSection">Experiences</a>
                     </li>
                     <li>
-                        <a href="#">Skills</a>
+                        <a href="#skillsSection">Skills</a>
                     </li>
                     <li>
-                        <a href="#">Projects</a>
+                        <a href="#projectsSection">Projects</a>
                     </li>
                     <li>
-                        <a href="#">Interests</a>
+                        <a href="#interestsSection">Interests</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="#contactSection">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -48,28 +48,28 @@
 
         <ul class="sidenav scrollSpy" id="mobile-demo">
             <li>
-                <a href="#">Profile</a>
+                <a href="#profileSection">Profile</a>
             </li>
             <li>
-                <a href="#">Experiences</a>
+                <a href="#experiencesSection">Experiences</a>
             </li>
             <li>
-                <a href="#">Skills</a>
+                <a href="#skillsSection">Skills</a>
             </li>
             <li>
-                <a href="#">Projects</a>
+                <a href="#projectSection">Projects</a>
             </li>
             <li>
-                <a href="#">Interests</a>
+                <a href="#interestsSection">Interests</a>
             </li>
             <li>
-                <a href="#">Contact</a>
+                <a href="#contactSection">Contact</a>
             </li>
         </ul>
     </div>
 
     <!-- Home Screen -->
-    <section class="overlay" id="home">
+    <section class="overlay scrollspy" id="home">
         <img id="homeImage" src="./assets/images/comicWoman.jpg">
         <div class="container nameDiv">
             <h1 class="center-align name">Christina Sarah Wu</h2>
@@ -78,7 +78,7 @@
     </section>
 
     <!-- Profile -->
-    <section>
+    <section class="scrollspy" id="profileSection">
         <div class="divSpacing">
             <div class="row">
                 <div class="col s2"></div>
@@ -118,7 +118,7 @@
     </section>
 
     <!-- Experiences Section -->
-    <section>
+    <section class="scrollspy" id="experiencesSection">
         <div class="divSpacing tanDiv">
             <div class="row">
                 <div class="col s2"></div>
@@ -296,7 +296,7 @@
     </section>
 
     <!-- Skills Section -->
-    <section>
+    <section class="scrollspy" id="skillsSection">
         <div class="divSpacing greyDiv">
             <div class="row">
                 <div class="col s2"></div>
@@ -455,7 +455,7 @@
     </section>
 
     <!-- Projects Section -->
-    <section>
+    <section class="scrollspy" id="projectsSection">
         <div class="tanDiv">
             <div class="row">
                 <div class="col s2"></div>
@@ -476,7 +476,7 @@
     </section>
 
     <!-- Interests Section -->
-    <section>
+    <section class="scrollspy" id="interestsSection">
         <div class="whiteDiv">
             <div class="row">
                 <div class="col s2"></div>
@@ -498,7 +498,7 @@
     </section>
 
     <!-- Contact Section -->
-    <section class="overlay">
+    <section class="overlay scrollspy" id="contactSection">
         <img id="contactImage" src="./assets/images/whaam.svg">
         <div class="contactDiv">
             <div class="row">
