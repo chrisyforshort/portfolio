@@ -178,7 +178,8 @@ nav {
     width: 135px;
     height: 160px;
     float: left;
-    margin: 20px;
+    margin-top: 0px;
+    margin: 13px;
     color: #7858af;
 }
 
@@ -190,6 +191,10 @@ nav {
     height: 135px;
     width: 135px;
     overflow: hidden;
+}
+
+.skillsHeaders {
+    margin-bottom: 0px;
 }
 
 #cssPic {
@@ -239,6 +244,49 @@ nav {
     padding: 16px 24px;
     text-transform: uppercase;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+
+/* Portfolio CSS */
+.portfolioDiv {
+    width: 500px;
+    height: 350px;
+    margin-right: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftScreenImg {
+    float: left;
+    width: 380px;
+    height: 250px;
+    position: relative;
+    z-index: 2;
+}
+
+.rightScreenImg {
+    width: 380px;
+    height: 250px;
+    position: relative;
+    z-index: 2;
+}
+
+.portfolioPic {
+    width: 343px;
+    height: 210px;
+    z-index: 1;
+    position: absolute;
+    left: 80px;
+    top: 60px;
+}
+
+.blueDiv {
+    background-color: #c3cad2;
+}
+
+.pinkDiv {
+    background-color: #cf9292;
 }
 
 /* Contact Section CSS */
