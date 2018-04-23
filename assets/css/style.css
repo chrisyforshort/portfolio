@@ -248,24 +248,17 @@ nav {
 
 /* Portfolio CSS */
 .portfolioDiv {
-    width: 500px;
-    height: 350px;
+    width: 650px;
+    height: 500px;
     margin-right: 10px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 10px;
 }
 
-.leftScreenImg {
-    float: left;
-    width: 380px;
-    height: 250px;
-    position: relative;
-    z-index: 2;
-}
-
-.rightScreenImg {
+.screenImg {
     width: 380px;
     height: 250px;
     position: relative;
@@ -277,16 +270,16 @@ nav {
     height: 210px;
     z-index: 1;
     position: absolute;
-    left: 80px;
-    top: 60px;
+    left: 153px;
+    top: 135px;
 }
 
 .blueDiv {
     background-color: #c3cad2;
 }
 
-.pinkDiv {
-    background-color: #cf9292;
+.purpleDiv {
+    background-color: #a393be;
 }
 
 /* Contact Section CSS */
