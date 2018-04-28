@@ -250,12 +250,12 @@ nav {
 .portfolioDiv {
     width: 650px;
     height: 500px;
-    margin-right: 10px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    margin: 5px;
+    background-color: #ecececa9;
 }
 
 .screenImg {
@@ -272,14 +272,6 @@ nav {
     position: absolute;
     left: 153px;
     top: 135px;
-}
-
-.blueDiv {
-    background-color: #c3cad2;
-}
-
-.purpleDiv {
-    background-color: #a393be;
 }
 
 /* Contact Section CSS */
