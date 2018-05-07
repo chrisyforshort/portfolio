@@ -1,7 +1,6 @@
 # portfolio
 
 ![Alt Text](https://media.giphy.com/media/4VlbCwmZlV2U0/giphy.gif)
-Hi, so happy for you to be here! 
 
 Welcome to the wonderful (and still under construction) portfolio website for Christina Sarah Wu! 
 
@@ -12,5 +11,7 @@ I have named this portfolio interative because I aspire to make everything click
 Please enjoy my portfolio and please message me for critques, concerns, and questions. Cheers!
 
 -Christina Wu
+
+
 ![Alt Text](https://media.giphy.com/media/xIJLgO6rizUJi/giphy.gif)
 
