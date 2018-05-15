@@ -55,6 +55,14 @@ nav {
     margin-right: 8px;
 }
 
+.navHamburger {
+    color: white;
+    position: sticky;
+    z-index: 1;
+    left: 3%;
+    top: 3%;
+  }
+
 /* Home Screen CSS */
 #homeImage{
     width: 100%;
@@ -274,22 +282,45 @@ nav {
     top: 135px;
 }
 
+/* Interests Section CSS */
+#interestsRow {
+    margin-bottom: 0px;
+}
+
 /* Contact Section CSS */
-.contactDiv{
+#contactSection {
+    background-color: #7858af;
+}
+
+.contactDiv {
     z-index: 1;
     position: relative;
     bottom: 60%;
 }
 
-.contact{
+#contactDescription {
     color: aliceblue;
 }
 
-#contactImage {
-    width: 100%;
-    height: 1000px;
-    position: relative;
-    z-index: 0;
-    opacity: .3;
+.contact {
+    color: aliceblue;
 }
 
+.contactLogos {
+    width: 80px;
+    height: 80px;
+    margin: 15px;
+}
+
+#gmailLogo {
+    width: 110px;
+    height: 104px;
+    padding-top: 4px;
+    margin-bottom: 5px;
+}
+
+
+#contactLogoRow {
+    margin-bottom: 0px;
+    padding-bottom: 50px;
+}

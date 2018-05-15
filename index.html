@@ -16,7 +16,7 @@
 
 <body>
     <!-- NavBar -->
-    <div class="navbar-fixed">
+    <div  id="nav_bar" class="navbar-fixed">
         <nav>
             <div class="nav-wrapper">
                 <a href="#home" class="brand-logo waves-effect">Christina Wu</a>
@@ -79,6 +79,14 @@
 
     <!-- Profile -->
     <section class="scrollspy" id="profileSection">
+            <!-- Hamburger -->
+    <i class="medium material-icons right-align navHamburger dropdown-trigger" data-target="dropdown1">dehaze</i>
+    <!-- Dropdown Structure -->
+    <ul id='dropdown1' class='dropdown-content'>
+      <li><a href="#homeSection">Home</a></li>
+      <li><a href="#howSection">How</a></li>
+      <li><a href="#whySection">Why</a></li>
+    </ul>
         <div class="divSpacing">
             <div class="row">
                 <div class="col s2"></div>
@@ -476,14 +484,18 @@
                 <div class="col s1"></div>
                 <div class="col s5 center-align">
                     <div class="portfolioDiv">
+                        <a href="https://chrisyforshort.github.io/Hangman-Game/">
                         <img class="screenImg" src="./assets/images/screen.png">
                         <img class="portfolioPic" src="./assets/images/portfolio/ArcadeHangmanSS.png">
+                        </a>
                     </div>
                 </div>
                 <div class="col s5 center-align">
                     <div class="portfolioDiv">
+                        <a href="https://chrisyforshort.github.io/Overwatch_RPG/">
                         <img class="screenImg" src="./assets/images/screen.png">
                         <img class="portfolioPic" src="./assets/images/portfolio/overwatchRPGSS.png">
+                        </a>
                     </div>
                 </div>
                 <div class="col s1 center-align"></div>
@@ -492,14 +504,18 @@
                 <div class="col s1"></div>
                 <div class="col s5 center-align">
                     <div class="portfolioDiv">
+                        <a href="https://chrisyforshort.github.io/GifTastic/">
                         <img class="screenImg" src="./assets/images/screen.png">
                         <img class="portfolioPic" src="./assets/images/portfolio/disneyGifTastic.png">
+                        </a>
                     </div>
                 </div>
                 <div class="col s5 center-align">
                     <div class="portfolioDiv">
+                        <a href="https://chrisyforshort.github.io/TriviaGame/">
                         <img class="screenImg" src="./assets/images/screen.png">
                         <img class="portfolioPic" src="./assets/images/portfolio/triviaGameSS.png">
+                        </a>
                     </div>
                 </div>
                 <div class="col s1 center-align"></div>
@@ -508,15 +524,18 @@
                 <div class="col s1"></div>
                 <div class="col s5 center-align">
                     <div class="portfolioDiv">
+                        <a href="https://jphamxuan.github.io/pick-a-pal/">
                         <img class="screenImg" src="./assets/images/screen.png">
                         <img class="portfolioPic" src="./assets/images/portfolio/petFinder.png">
+                        </a>
                     </div>
                 </div>
                 <div class="col s5 center-align">
                     <div class="portfolioDiv">
+                        <a href="https://scratch.mit.edu/projects/197674625/">
                         <img class="screenImg" src="./assets/images/screen.png">
                         <img class="portfolioPic" src="./assets/images/portfolio/doggoFart.png">
-                        <!-- https://jphamxuan.github.io/pick-a-pal/ -->
+                        </a>
                     </div>
                 </div>
                 <div class="col s1 center-align"></div>
@@ -533,37 +552,48 @@
                     <h1 class="center-align">Interests</h1>
                     <p class="center-align description">"With every year of playing, you want to relax one more muscle. Why? Because the more tense you are the
                         less you can hear." - Yo-Yo Ma</p>
-                    <h1>Website Still in Progress, thanks for your patience :)</h1>
                 </div>
                 <div class="col s2"></div>
             </div>
-            <div class="row">
+            <div class="row" id="interestsRow">
                 <div class="col s2"></div>
-                <div class="col s2 center-align">
+                <div class="col s8 center-align">
+                    <h1>Website Still in Progress, thanks for your patience :)</h1>
                 </div>
-                <div class="col s3 center-align">
+                <div class="col s2 center-align">
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section class="overlay" id="contactSection">
-        <img id="contactImage" src="./assets/images/whaam.svg">
+    <section class="scrollspy" id="contactSection">
         <div class="contactDiv">
             <div class="row">
                 <div class="col s2"></div>
                 <div class="col s8 center-align topicDiv">
                     <h1 class="center-align contact">Contact</h1>
-                    <p class="center-align description">"But here's my number, so call me maybe." - Carly Rae Jepsen</p>
+                    <p id="contactDescription" class="center-align description">"But here's my number, so call me maybe." - Carly Rae Jepsen</p>
                 </div>
                 <div class="col s2"></div>
             </div>
-            <div class="row">
+            <div class="row" id="contactLogoRow">
                 <div class="col s2"></div>
-                <div class="col s2 center-align">
+                <div class="col s8 center-align">
+                    <a href="https://www.wikihow.com/Make-a-Picture-Link-in-HTML">
+                        <img class="contactLogos" id="gmailLogo" src="./assets/images/logos/gmail.png">
+                    </a>
+                    <a href="www.linkedin.com/in/christinasarahwu">
+                        <img class="contactLogos" src="./assets/images/logos/linkedin.png">
+                    </a>
+                    <a href="https://github.com/chrisyforshort">
+                        <img class="contactLogos" src="./assets/images/logos/github.png">
+                    </a>
+                    <a href="https://stackoverflow.com/users/9217351/christina-wu">
+                        <img class="contactLogos" src="./assets/images/logos/stackOverflow.png">
+                    </a>
                 </div>
-                <div class="col s3 center-align">
+                <div class="col s2 center-align">
                 </div>
             </div>
         </div>
