@@ -288,6 +288,12 @@ nav {
     padding-bottom: 100px;
 }
 
+.interestLogo {
+    width: 150px;
+    height: 150px;
+    margin-top: 13px;
+}
+
 /* Contact Section CSS */
 #contactSection {
     background-color: #7858af;
