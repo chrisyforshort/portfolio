@@ -36,6 +36,19 @@ h1, h2, h3 {
     margin-left: 15px;
 }
 
+.topicDiv {
+    border-bottom: solid 1px gray;
+    margin-bottom: 15px;
+}
+
+.tanDiv {
+    background-color: #f3efe1;
+}
+
+.greyDiv{
+    background-color: #d5d5d5;
+}
+
 /* Navigation Bar CSS */
 nav {
     background-color: #7858afc4;
@@ -54,14 +67,6 @@ nav {
 .contactNav {
     margin-right: 8px;
 }
-
-.navHamburger {
-    color: white;
-    position: sticky;
-    z-index: 1;
-    left: 3%;
-    top: 3%;
-  }
 
 /* Home Screen CSS */
 #homeImage{
@@ -100,19 +105,6 @@ nav {
     height: 1000px;
     background-color: #7858af;
     z-index: 2;
-}
-
-.topicDiv {
-    border-bottom: solid 1px gray;
-    margin-bottom: 15px;
-}
-
-.tanDiv {
-    background-color: #f3efe1;
-}
-
-.greyDiv{
-    background-color: #d5d5d5;
 }
 
 /* Profile Section CSS */
@@ -330,4 +322,69 @@ nav {
 #contactLogoRow {
     margin-bottom: 0px;
     padding-bottom: 50px;
+}
+
+@media (max-width: 414px) {
+    /* NavBar */
+    nav {
+        width: 414px;
+    }
+
+    .nav-wrapper {
+        width: 414px;
+    }
+    
+    .brand-logo {
+        font-size: 10px;
+        margin-left: 0px;
+    }
+
+    /* Home Section */
+    #homeImage{
+        height: 635px;
+    }
+    .overlay {
+        height: 635px;
+    }
+    .nameDiv{
+        top: -480px;
+        font-size: 13px;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+    
+    .name {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    /* Profile Section */
+    .basicDiv {
+        margin-left: 20px;
+        top: 1250px;
+        position: absolute;
+    }
+    
+    .basicText {
+        margin-left: 10px;
+        text-align: center;
+    }
+    
+    .profilePic {
+        height: 285px;
+        width: 345px;
+        margin-left: -110px;
+        margin-bottom: 500px;
+    }
+    
+    .aboutMe {
+        margin-left: -130px;
+        position: absolute;
+        top: 1450px;
+    }
+    
+    #aboutMePara {
+        top: 1520px;
+        margin-left: -200px;
+        width: 310px;
+    }
 }

@@ -6,6 +6,8 @@ $(document).ready(function () {
         window.location = 'mailto:' + email + '?';
     }),
 
+    $()
+
         console.log("hi");
     M.AutoInit();
     $('.sidenav').sidenav();
