@@ -18,6 +18,6 @@ Please enjoy my portfolio and please message me for critques, concerns, and ques
 ## Screenshot of the Portfolio
 ![Alt Text](assets/images/portfolioSS.png)
 
-## Current Progress on Portfolio
+## Current Work in Progress on the Portfolio
 
 Currently most of the features are functioning on the site. I'm currently in the process of working out the media quaries to have the site responsive. I stil need to add more links to the different work and schools I have been apart of. I wish to bring in the Google Maps API so when you hover over the locations in the Experiences sections, you can see where each is. 
