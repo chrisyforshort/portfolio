@@ -82,7 +82,7 @@
         <div class="divSpacing">
             <div class="row">
                 <div class="col s2"></div>
-                <div class="col s8 center-align topicDiv">
+                <div class="col s8 center-align topicDiv" id="profileDiv">
                     <h1 class="center-align">Profile</h1>
                     <p class="center-align description">Web Developer & Seeker of Knowledge</p>
                 </div>
@@ -122,9 +122,9 @@
         <div class="divSpacing tanDiv">
             <div class="row">
                 <div class="col s2"></div>
-                <div class="col s8 center-align topicDiv">
-                    <h1 class="center-align">Experiences</h1>
-                    <p class="description">"Character cannot be developed in ease and quiet. Only through experience of trial and suffering can
+                <div class="col s8 center-align topicDiv" id="experienceDiv">
+                    <h1 class="center-align" id="experienceHeader">Experiences</h1>
+                    <p class="description" id="experienceDescription">"Character cannot be developed in ease and quiet. Only through experience of trial and suffering can
                         the soul be strengthened, ambition inspired, and sucess achieved." - Helen Keller </p>
                 </div>
                 <div class="col s2"></div>
@@ -133,12 +133,12 @@
             <div class="row">
                 <div class="col s2"></div>
                 <div class="col s10">
-                    <h2>Education</h2>
+                    <h2 class="experienceH2" id="eduTitle">Education</h2>
                 </div>
             </div>
             <div class="row">
                 <div class="col s2"></div>
-                <div class="col s2">
+                <div class="col s2" id="uciDiv">
                     <a href="https://bootcamp.ce.uci.edu/coding/" class="experienceTitle">University of California, Irvine</a>
                     <br>
                     <i class="small material-icons dateLogo">date_range</i>
@@ -146,19 +146,20 @@
                     <i class="small material-icons">location_on</i>
                     <p class="experienceLocation">Irvine, California</p>
                 </div>
-                <div class="col s6">
+                <div class="col s6" id="uciDiv2">
                     <p class="titleText">Coding Boot Camp</p>
-                    <p>Six month long full stacked web developement boot camp focused on building practical real world application
-                        while learning. The course covers computer science applied to Javascript, browser based technologies,
-                        databases, Node.js, quality assurance, internet marketing, and deployment. Some of the languages/skills
-                        learned include HTML, CSS, Javascript, React.js, MySQL, Git, and more.
+                    <p>Six months-long full stacked web development boot camp focused on building practical real-world application while learning.
+                         The course covers computer science applied to Javascript, browser-based technologies,
+                          databases, Node.js, quality assurance, internet marketing, and deployment.
+                           Some of the languages/ skills learned include HTML, CSS, Javascript, React.js,
+                            MySQL, Git, and more.
                     </p>
                 </div>
                 <div class="col s2"></div>
             </div>
             <div class="row">
                 <div class="col s2"></div>
-                <div class="col s2">
+                <div class="col s2" id="scDiv">
                     <span class="experienceTitle">Santa Clara Law School</span>
                     <br>
                     <i class="small material-icons dateLogo">date_range</i>
@@ -166,8 +167,8 @@
                     <i class="small material-icons">location_on</i>
                     <p class="experienceLocation">Santa Clara, California</p>
                 </div>
-                <div class="col s6">
-                    <p id="scText">Organizations: Board Member – Asian Pacific American Law Student Association; Member – Women and Law
+                <div class="col s6" id="scDiv2">
+                    <p id="scText">Organizations: Board Member – Asian Pacific American Law Student Association; <br> Member – Women and Law
                         Association
                     </p>
                 </div>
@@ -175,15 +176,15 @@
             </div>
             <div class="row">
                 <div class="col s2"></div>
-                <div class="col s2">
-                    <span class="experienceTitle">Purdue University</span>
+                <div class="col s2" id="purdueDiv">
+                    <span class="experienceTitle" id="purdueTitle">Purdue University</span>
                     <br>
                     <i class="small material-icons dateLogo">date_range</i>
                     <p class="experienceDate">August 2012 - December 2015</p>
                     <i class="small material-icons">location_on</i>
                     <p class="experienceLocation">West Lafayette, Indiana</p>
                 </div>
-                <div class="col s6">
+                <div class="col s6" id="purdueDiv2">
                     <p id="purdueText">Bachelor of Arts, Sociology, Law and Society Concentration</p>
                     <p id="minorsText">Minors in Psychology and Forensic Science</p>
                     <p>Organizations: President – alpha Kappa Delta Phi; Board Member – Multicultural Greek Council; Member
@@ -196,12 +197,12 @@
             <div class="row">
                 <div class="col s2"></div>
                 <div class="col s10">
-                    <h2>Work Experience</h2>
+                    <h2 id="workHeader">Work Experience</h2>
                 </div>
             </div>
             <div class="row">
                 <div class="col s2"></div>
-                <div class="col s2">
+                <div class="col s2" id="superiorDiv">
                     <span class="experienceTitle">Orange County Superior Court</span>
                     <br>
                     <i class="small material-icons dateLogo">date_range</i>
@@ -209,7 +210,7 @@
                     <i class="small material-icons">location_on</i>
                     <p class="experienceLocation">Santa Ana, California</p>
                 </div>
-                <div class="col s6">
+                <div class="col s6" id="superiorDiv2">
                     <p class="titleText">Judicial Extern</p>
                     <p> • Directly shadowed Judge Gerald Johnston in the Probate, Mental Health, and Elder Abuse court • Researched
                         and drafted law in motion memorandums under the mentorship of lead court researcher • Observed trials
@@ -219,7 +220,7 @@
             </div>
             <div class="row">
                 <div class="col s2"></div>
-                <div class="col s2">
+                <div class="col s2" id="fargoDiv">
                     <span class="experienceTitle">Wells Fargo Financial Advisors</span>
                     <br>
                     <i class="small material-icons dateLogo">date_range</i>
@@ -227,7 +228,7 @@
                     <i class="small material-icons">location_on</i>
                     <p class="experienceLocation">Irvine, California</p>
                 </div>
-                <div class="col s6">
+                <div class="col s6" id="fargoDiv2">
                     <p class="titleText">Intern</p>
                     <p> • Facilitated client relationships through the implementation of a robust digital client contact system
                         •Successful planning and execution of client seminar events and presentations for business development
@@ -238,7 +239,7 @@
             </div>
             <div class="row">
                 <div class="col s2"></div>
-                <div class="col s2">
+                <div class="col s2" id="jackDiv">
                     <span class="experienceTitle">Jack O’Bryan Law Firm</span>
                     <br>
                     <i class="small material-icons dateLogo">date_range</i>
@@ -246,7 +247,7 @@
                     <i class="small material-icons">location_on</i>
                     <p class="experienceLocation">West Lafayette, Indiana</p>
                 </div>
-                <div class="col s6">
+                <div class="col s6" id="jackDiv2">
                     <p class="titleText">Legal Intern</p>
                     <p> • Analyzed client data to determine Social Security qualifications • Researched legal issues regarding
                         early Social Security qualification based off of disabilities • Drafted office memorandums for court
@@ -256,7 +257,7 @@
             </div>
             <div class="row">
                 <div class="col s2"></div>
-                <div class="col s2">
+                <div class="col s2" id="allDiv">
                     <span class="experienceTitle">All Americas, Inc.</span>
                     <br>
                     <i class="small material-icons dateLogo">date_range</i>
@@ -264,7 +265,7 @@
                     <i class="small material-icons">location_on</i>
                     <p class="experienceLocation">Walnut, California</p>
                 </div>
-                <div class="col s6">
+                <div class="col s6" id="allDiv2">
                     <p class="titleText">Camp Coordinator</p>
                     <p> • Coordinated an approximate total of 2,000 student schedules, increasing accountability for program
                         attendance • Developed provisional plans for effective classroom engagement and stimulating learning
@@ -276,7 +277,7 @@
             </div>
             <div class="row">
                 <div class="col s2"></div>
-                <div class="col s2">
+                <div class="col s2" id="digestiveDiv">
                     <span class="experienceTitle">Irvine Digestive Disease Center</span>
                     <br>
                     <i class="small material-icons dateLogo">date_range</i>
@@ -284,7 +285,7 @@
                     <i class="small material-icons">location_on</i>
                     <p class="experienceLocation">Irvine, California </p>
                 </div>
-                <div class="col s6">
+                <div class="col s6" id="digestiveDiv2">
                     <p class="titleText">Administrative Assistant</p>
                     <p> • Conducted initial patient intake and checkout procedures • Reorganization of office guidelines to ensure
                         added quality • Managed patient charts and medication orders with pharmacies, laboratories, hospitals,
@@ -475,7 +476,7 @@
             <div class="row">
                 <div class="col s1"></div>
                 <div class="col s5 center-align">
-                    <div class="portfolioDiv">
+                    <div class="portfolioDiv" id="project1">
                         <a href="https://jphamxuan.github.io/pick-a-pal/">
                             <img class="screenImg" src="./assets/images/screen.png">
                             <img class="portfolioPic static" src="./assets/images/portfolio/petFinder.png">
@@ -483,7 +484,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col s5 center-align">
+                <div class="col s5 center-align" id="project2">
                     <div class="portfolioDiv">
                         <a href="https://afternoon-hollows-12505.herokuapp.com/">
                             <img class="screenImg" src="./assets/images/screen.png">
@@ -496,7 +497,7 @@
             </div>
             <div class="row">
                 <div class="col s1"></div>
-                <div class="col s5 center-align">
+                <div class="col s5 center-align" id="project3">
                     <div class="portfolioDiv">
                         <a href="https://chrisyforshort.github.io/GifTastic/">
                             <img class="screenImg" src="./assets/images/screen.png">
@@ -504,7 +505,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col s5 center-align">
+                <div class="col s5 center-align" id="project4">
                     <div class="portfolioDiv">
                         <a href="https://chrisyforshort.github.io/TriviaGame/">
                             <img class="screenImg" src="./assets/images/screen.png">
@@ -516,7 +517,7 @@
             </div>
             <div class="row">
                 <div class="col s1"></div>
-                <div class="col s5 center-align">
+                <div class="col s5 center-align" id="project5">
                     <div class="portfolioDiv">
                         <a href="https://chrisyforshort.github.io/Hangman-Game/">
                             <img class="screenImg" src="./assets/images/screen.png">
@@ -524,7 +525,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col s5 center-align">
+                <div class="col s5 center-align" id="project6">
                     <div class="portfolioDiv">
                         <a href="https://chrisyforshort.github.io/Overwatch_RPG/">
                             <img class="screenImg" src="./assets/images/screen.png">

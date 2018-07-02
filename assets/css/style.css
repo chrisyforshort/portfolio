@@ -358,9 +358,14 @@ nav {
     }
 
     /* Profile Section */
+    #profileDiv {
+        width: 360px;
+        margin-left: -40px;
+    }
+
     .basicDiv {
         margin-left: 20px;
-        top: 1250px;
+        top: 1220px;
         position: absolute;
     }
     
@@ -373,18 +378,309 @@ nav {
         height: 285px;
         width: 345px;
         margin-left: -110px;
-        margin-bottom: 500px;
+        margin-bottom: 460px;
     }
     
     .aboutMe {
         margin-left: -130px;
         position: absolute;
-        top: 1450px;
+        top: 1400px;
     }
     
     #aboutMePara {
-        top: 1520px;
+        top: 1470px;
         margin-left: -200px;
         width: 310px;
+    }
+
+    /* Experiences Section */
+    #experienceDiv {
+        width: 360px;
+        margin-left: -40px;
+    }
+
+    #experienceHeader {
+        font-size: 65px;
+        margin-left: -12px;
+    }
+
+    #experienceDescription {
+        font-size: 14px;
+    }
+
+    .experienceH2 {
+        margin-top: 0px;
+
+    }
+
+    #eduTitle {
+        margin-left: 20px
+    }
+
+    #uciDiv {
+        width: 300px;
+        margin-bottom: 240px;
+        margin-left: -10px;
+    }
+
+    #uciDiv2 {
+        position: absolute;
+        top: 2290px;
+        width: 350px;
+        margin-left: 40px;
+        text-align: center;
+    }
+
+    #scDiv {
+        width: 300px;
+        margin-left: 20px;
+        margin-bottom: 90px;
+    }
+
+    #scDiv2 {
+        position: absolute;
+        top: 2630px;
+        width: 350px;
+        margin-left: 40px;
+        text-align: center;
+    }
+
+    #purdueDiv {
+        width: 300px;
+        margin-left: 20px;
+        margin-bottom: 200px;
+    }
+
+    #purdueDiv2 {
+        position: absolute;
+        top: 2900px;
+        width: 350px;
+        margin-left: 40px;
+        text-align: center;
+    }
+    
+    #purdueTitle {
+        margin-left: 25px;
+    }
+    
+    #purdueText {
+        font-size: 13px;
+    }
+
+    #minorsText {
+        font-size: 13px;
+    }
+
+    #workHeader {
+        margin-top: 0px;
+        text-align: center;
+        margin-left: -60px;
+    }
+
+    #superiorDiv {
+        width: 300px;
+        margin-left: 20px;
+        margin-bottom: 220px;
+    }
+
+    #superiorDiv2 {
+        position: absolute;
+        top: 3385px;
+        width: 350px;
+        margin-left: 40px;
+        text-align: center;
+    }
+
+    #fargoDiv {
+        width: 300px;
+        margin-left: 20px;
+        margin-bottom: 215px;
+    }
+
+    #fargoDiv2 {
+        position: absolute;
+        top: 3765px;
+        width: 350px;
+        margin-left: 40px;
+        text-align: center;
+    }
+    
+    #jackDiv {
+        width: 300px;
+        margin-left: 20px;
+        margin-bottom: 170px;
+    }
+
+    #jackDiv2 {
+        position: absolute;
+        top: 4110px;
+        width: 350px;
+        margin-left: 40px;
+        text-align: center;
+    }
+
+    #allDiv {
+        width: 300px;
+        margin-left: 45px;
+        margin-bottom: 240px;
+    }
+
+    #allDiv2 {
+        position: absolute;
+        top: 4430px;
+        width: 350px;
+        margin-left: 40px;
+        text-align: center;
+    }
+
+    #digestiveDiv {
+        width: 300px;
+        margin-left: 20px;
+        margin-bottom: 130px;
+    }
+
+    #digestiveDiv2 {
+        position: absolute;
+        top: 4830px;
+        width: 350px;
+        margin-left: 40px;
+        text-align: center;
+    }
+
+    /* Skills Section CSS */
+    .card {
+        width: 105px;
+        height: 130px;
+        margin: 10px;
+        margin-bottom: 30px;
+    }
+    
+    .card-image {
+        height: 105px;
+        width: 105px;
+    }
+    
+    #cssPic {
+        height: 170px;
+        width: 315px;
+        left: -105px;
+    }
+    
+    #expressPic {
+        width: 90px;
+    }
+    
+    #handlebarsText {
+        margin-left: -16px;
+    }
+    
+    .cardNameDiv {
+        font-size: 12px;
+     }
+    
+    /* Portfolio CSS */
+    .portfolioDiv {
+        width: 350px;
+        height: 210px;
+        margin: 5px;
+        margin-left: 15px;
+        margin-bottom: 20px;
+        margin-right: 100px;
+    }
+
+    .screenImg {
+        width: 280px;
+        height: 150px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .portfolioPic {
+        width: 343px;
+        height: 210px;
+        z-index: 1;
+        position: absolute;
+        left: 153px;
+        top: 135px;
+    }
+
+    #project1 {
+        margin-bottom: 1200px;
+        margin-left: -19px;
+    }
+
+    #project2 {
+        top: 7550px;
+        position: absolute;
+    }
+
+    #project3 {
+        top: 7800px;
+        position: absolute;
+    }
+
+    #project4 {
+        top: 8050px;
+        position: absolute;
+    }
+
+    #project5 {
+        top: 8300px;
+        position: absolute;
+    }
+
+    #project6 {
+        top: 8550px;
+        position: absolute;
+    }
+    
+    /* Interests Section CSS */
+    #interestsRow {
+        margin-bottom: 0px;
+        padding-bottom: 100px;
+    }
+    
+    .interestLogo {
+        width: 150px;
+        height: 150px;
+        margin-top: 13px;
+    }
+    
+    /* Contact Section CSS */
+    #contactSection {
+        background-color: #7858af;
+    }
+    
+    .contactDiv {
+        z-index: 1;
+        position: relative;
+        bottom: 60%;
+    }
+    
+    #contactDescription {
+        color: aliceblue;
+    }
+    
+    .contact {
+        color: aliceblue;
+    }
+    
+    .contactLogos {
+        width: 80px;
+        height: 80px;
+        margin: 15px;
+    }
+    
+    #gmailLogo {
+        width: 110px;
+        height: 104px;
+        padding-top: 4px;
+        margin-bottom: 5px;
+    }
+    
+    
+    #contactLogoRow {
+        margin-bottom: 0px;
+        padding-bottom: 50px;
     }
 }
