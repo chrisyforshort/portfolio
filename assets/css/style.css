@@ -580,28 +580,26 @@ nav {
     
     /* Portfolio CSS */
     .portfolioDiv {
-        width: 350px;
+        width: 370px;
         height: 210px;
         margin: 5px;
-        margin-left: 15px;
+        margin-left: 10px;
+        margin-right: 0px;
         margin-bottom: 20px;
-        margin-right: 100px;
     }
 
     .screenImg {
-        width: 280px;
-        height: 150px;
+        width: 285px;
+        height: 165px;
         position: relative;
         z-index: 2;
     }
 
     .portfolioPic {
-        width: 343px;
-        height: 210px;
-        z-index: 1;
-        position: absolute;
-        left: 153px;
-        top: 135px;
+        width: 250px;
+        height: 120px;
+        left: 59px;
+        top: 29px;
     }
 
     #project1 {
@@ -636,16 +634,87 @@ nav {
     
     /* Interests Section CSS */
     #interestsRow {
-        margin-bottom: 0px;
-        padding-bottom: 100px;
+        padding-bottom: 50px;
     }
     
     .interestLogo {
-        width: 150px;
-        height: 150px;
+        width: 110px;
+        height: 110px;
         margin-top: 13px;
     }
+
+    .interestDiv {
+        font-size: 16px;
+    }
+
+    #scubaDivingLogo {
+        margin-left: -70px;
+        margin-top: 120px;
+        position: absolute;
+    }
+
+    #sportsHeader {
+        margin-left: -40px;
+    }
     
+    #scubaDiv {
+        margin-left: 70px;
+        width: 200px;
+    }
+
+    #entertainmentDiv {
+        width: 200px;
+        margin-left: -60px;
+    }
+
+    #entertainmentHeader {
+        margin-left: 17px;
+    }
+
+    #videoGamesLogo {
+        position: absolute;
+        margin-top: 130px;
+        margin-left: -20px;
+    }
+
+    #travelDiv {
+        width: 200px;
+        margin-left: 75px;
+    }
+
+    #travelHeader {
+        margin-left: -70px;
+    }
+
+    #travelLogo {
+        position: absolute;
+        margin-top: 125px;
+        margin-left: -65px;
+    }
+
+    #joDiv {
+        width: 200px;
+        margin-left: -60px;
+    }
+
+    #joHeader {
+        margin-left: -20px;
+        width: 350px;
+        margin-bottom: 50px;
+    }
+
+    #wu {
+        margin-left: -190px;
+        margin-top: 40px;
+        position: absolute;
+    }
+
+    #joLogo {
+        position: absolute;
+        margin-top: 145px;
+        margin-left: -25px;
+    }
+
     /* Contact Section CSS */
     #contactSection {
         background-color: #7858af;
