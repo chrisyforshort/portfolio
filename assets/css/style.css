@@ -739,6 +739,10 @@ nav {
         height: 80px;
         margin: 15px;
     }
+
+    #contactDiv {
+        margin-left: -5px;
+    }
     
     #gmailLogo {
         width: 110px;
@@ -747,7 +751,21 @@ nav {
         margin-bottom: 5px;
     }
     
+    #githubLogo {
+        width: 88px;
+        height: 88px;
+        padding-bottom: -10px;
+        padding-top: 3px; 
+        margin-left: 28px;
+    }
     
+    #stackoverflowLogo {
+        width: 85px;
+        height: 85px;
+        padding-top: -30px;
+        margin-left: 20px;
+    }
+
     #contactLogoRow {
         margin-bottom: 0px;
         padding-bottom: 50px;
