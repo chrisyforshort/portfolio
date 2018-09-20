@@ -449,11 +449,12 @@ nav {
         width: 300px;
         margin-left: 20px;
         margin-bottom: 200px;
+        margin-top: 20px;
     }
 
     #purdueDiv2 {
         position: absolute;
-        top: 2900px;
+        top: 2920px;
         width: 350px;
         margin-left: 40px;
         text-align: center;
@@ -477,6 +478,20 @@ nav {
         margin-left: -60px;
     }
 
+    #lexonetDiv {
+        width: 300px;
+        margin-left: 20px;
+        margin-bottom: 220px;
+    }
+
+    #lexonetDiv2 {
+        position: absolute;
+        top: 3380px;
+        width: 350px;
+        margin-left: 40px;
+        text-align: center;
+    }
+
     #superiorDiv {
         width: 300px;
         margin-left: 20px;
@@ -485,7 +500,7 @@ nav {
 
     #superiorDiv2 {
         position: absolute;
-        top: 3385px;
+        top: 3765px;
         width: 350px;
         margin-left: 40px;
         text-align: center;
@@ -495,11 +510,12 @@ nav {
         width: 300px;
         margin-left: 20px;
         margin-bottom: 215px;
+        margin-top: 30px;
     }
 
     #fargoDiv2 {
         position: absolute;
-        top: 3765px;
+        top: 4180px;
         width: 350px;
         margin-left: 40px;
         text-align: center;
@@ -509,11 +525,12 @@ nav {
         width: 300px;
         margin-left: 20px;
         margin-bottom: 170px;
+        margin-top: 75px;
     }
 
     #jackDiv2 {
         position: absolute;
-        top: 4110px;
+        top: 4600px;
         width: 350px;
         margin-left: 40px;
         text-align: center;
@@ -523,11 +540,12 @@ nav {
         width: 300px;
         margin-left: 45px;
         margin-bottom: 240px;
+        margin-top: 55px;
     }
 
     #allDiv2 {
         position: absolute;
-        top: 4430px;
+        top: 4965px;
         width: 350px;
         margin-left: 40px;
         text-align: center;
@@ -536,12 +554,13 @@ nav {
     #digestiveDiv {
         width: 300px;
         margin-left: 20px;
-        margin-bottom: 130px;
+        margin-bottom: 230px;
+        margin-top: 35px;
     }
 
     #digestiveDiv2 {
         position: absolute;
-        top: 4830px;
+        top: 5400px;
         width: 350px;
         margin-left: 40px;
         text-align: center;
@@ -608,33 +627,37 @@ nav {
     }
 
     #project2 {
-        top: 7550px;
+        top: 8220px;
         position: absolute;
     }
 
     #project3 {
-        top: 7800px;
+        top: 8470px;
         position: absolute;
     }
 
     #project4 {
-        top: 8050px;
+        top: 8710px;
         position: absolute;
     }
 
     #project5 {
-        top: 8300px;
+        top: 8960px;
         position: absolute;
     }
 
     #project6 {
-        top: 8550px;
+        top: 9210px;
         position: absolute;
     }
     
     /* Interests Section CSS */
     #interestsRow {
         padding-bottom: 50px;
+    }
+
+    #interestTitleHeader {
+        margin-top: 90px;
     }
     
     .interestLogo {
