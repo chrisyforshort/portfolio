@@ -324,6 +324,7 @@ nav {
     padding-bottom: 50px;
 }
 
+/* iPhone 6/7 Plus Responsiveness */
 @media (max-width: 414px) {
     /* NavBar */
     nav {
@@ -369,6 +370,460 @@ nav {
         position: absolute;
     }
     
+    .basicText {
+        margin-left: 10px;
+        text-align: center;
+    }
+    
+    .profilePic {
+        height: 285px;
+        width: 345px;
+        margin-left: -110px;
+        margin-bottom: 460px;
+    }
+    
+    .aboutMe {
+        margin-left: -130px;
+        position: absolute;
+        top: 1400px;
+    }
+    
+    #aboutMePara {
+        top: 1470px;
+        margin-left: -200px;
+        width: 310px;
+    }
+
+    /* Experiences Section */
+    #experienceDiv {
+        width: 360px;
+        margin-left: -40px;
+    }
+
+    #experienceHeader {
+        font-size: 65px;
+        margin-left: -12px;
+    }
+
+    #experienceDescription {
+        font-size: 14px;
+    }
+
+    .experienceH2 {
+        margin-top: 0px;
+
+    }
+
+    #eduTitle {
+        margin-left: 20px
+    }
+
+    #uciDiv {
+        width: 300px;
+        margin-bottom: 240px;
+        margin-left: -10px;
+    }
+
+    #uciDiv2 {
+        position: absolute;
+        top: 2290px;
+        width: 350px;
+        margin-left: 40px;
+        text-align: center;
+    }
+
+    #scDiv {
+        width: 300px;
+        margin-left: 20px;
+        margin-bottom: 90px;
+    }
+
+    #scDiv2 {
+        position: absolute;
+        top: 2630px;
+        width: 350px;
+        margin-left: 40px;
+        text-align: center;
+    }
+
+    #purdueDiv {
+        width: 300px;
+        margin-left: 20px;
+        margin-bottom: 200px;
+        margin-top: 20px;
+    }
+
+    #purdueDiv2 {
+        position: absolute;
+        top: 2920px;
+        width: 350px;
+        margin-left: 40px;
+        text-align: center;
+    }
+    
+    #purdueTitle {
+        margin-left: 25px;
+    }
+    
+    #purdueText {
+        font-size: 13px;
+    }
+
+    #minorsText {
+        font-size: 13px;
+    }
+
+    #workHeader {
+        margin-top: 0px;
+        text-align: center;
+        margin-left: -60px;
+    }
+
+    #lexonetDiv {
+        width: 300px;
+        margin-left: 20px;
+        margin-bottom: 220px;
+    }
+
+    #lexonetDiv2 {
+        position: absolute;
+        top: 3380px;
+        width: 350px;
+        margin-left: 40px;
+        text-align: center;
+    }
+
+    #superiorDiv {
+        width: 300px;
+        margin-left: 20px;
+        margin-bottom: 220px;
+    }
+
+    #superiorDiv2 {
+        position: absolute;
+        top: 3765px;
+        width: 350px;
+        margin-left: 40px;
+        text-align: center;
+    }
+
+    #fargoDiv {
+        width: 300px;
+        margin-left: 20px;
+        margin-bottom: 215px;
+        margin-top: 30px;
+    }
+
+    #fargoDiv2 {
+        position: absolute;
+        top: 4180px;
+        width: 350px;
+        margin-left: 40px;
+        text-align: center;
+    }
+    
+    #jackDiv {
+        width: 300px;
+        margin-left: 20px;
+        margin-bottom: 170px;
+        margin-top: 75px;
+    }
+
+    #jackDiv2 {
+        position: absolute;
+        top: 4600px;
+        width: 350px;
+        margin-left: 40px;
+        text-align: center;
+    }
+
+    #allDiv {
+        width: 300px;
+        margin-left: 45px;
+        margin-bottom: 240px;
+        margin-top: 55px;
+    }
+
+    #allDiv2 {
+        position: absolute;
+        top: 4965px;
+        width: 350px;
+        margin-left: 40px;
+        text-align: center;
+    }
+
+    #digestiveDiv {
+        width: 300px;
+        margin-left: 20px;
+        margin-bottom: 230px;
+        margin-top: 35px;
+    }
+
+    #digestiveDiv2 {
+        position: absolute;
+        top: 5400px;
+        width: 350px;
+        margin-left: 40px;
+        text-align: center;
+    }
+
+    /* Skills Section CSS */
+    .card {
+        width: 105px;
+        height: 130px;
+        margin: 10px;
+        margin-bottom: 30px;
+    }
+    
+    .card-image {
+        height: 105px;
+        width: 105px;
+    }
+    
+    #cssPic {
+        height: 170px;
+        width: 315px;
+        left: -105px;
+    }
+    
+    #expressPic {
+        width: 90px;
+    }
+    
+    #handlebarsText {
+        margin-left: -16px;
+    }
+    
+    .cardNameDiv {
+        font-size: 12px;
+     }
+    
+    /* Portfolio CSS */
+    .portfolioDiv {
+        width: 370px;
+        height: 210px;
+        margin: 5px;
+        margin-left: 10px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .screenImg {
+        width: 285px;
+        height: 165px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .portfolioPic {
+        width: 250px;
+        height: 120px;
+        left: 59px;
+        top: 29px;
+    }
+
+    #project1 {
+        margin-bottom: 1200px;
+        margin-left: -19px;
+    }
+
+    #project2 {
+        top: 8220px;
+        position: absolute;
+    }
+
+    #project3 {
+        top: 8470px;
+        position: absolute;
+    }
+
+    #project4 {
+        top: 8710px;
+        position: absolute;
+    }
+
+    #project5 {
+        top: 8960px;
+        position: absolute;
+    }
+
+    #project6 {
+        top: 9210px;
+        position: absolute;
+    }
+    
+    /* Interests Section CSS */
+    #interestsRow {
+        padding-bottom: 50px;
+    }
+
+    #interestTitleHeader {
+        margin-top: 90px;
+    }
+    
+    .interestLogo {
+        width: 110px;
+        height: 110px;
+        margin-top: 13px;
+    }
+
+    .interestDiv {
+        font-size: 16px;
+    }
+
+    #scubaDivingLogo {
+        margin-left: -70px;
+        margin-top: 120px;
+        position: absolute;
+    }
+
+    #sportsHeader {
+        margin-left: -40px;
+    }
+    
+    #scubaDiv {
+        margin-left: 70px;
+        width: 200px;
+    }
+
+    #entertainmentDiv {
+        width: 200px;
+        margin-left: -60px;
+    }
+
+    #entertainmentHeader {
+        margin-left: 17px;
+    }
+
+    #videoGamesLogo {
+        position: absolute;
+        margin-top: 130px;
+        margin-left: -20px;
+    }
+
+    #travelDiv {
+        width: 200px;
+        margin-left: 75px;
+    }
+
+    #travelHeader {
+        margin-left: -70px;
+    }
+
+    #travelLogo {
+        position: absolute;
+        margin-top: 125px;
+        margin-left: -65px;
+    }
+
+    #joDiv {
+        width: 200px;
+        margin-left: -60px;
+    }
+
+    #joHeader {
+        margin-left: -20px;
+        width: 350px;
+        margin-bottom: 50px;
+    }
+
+    #wu {
+        margin-left: -190px;
+        margin-top: 40px;
+        position: absolute;
+    }
+
+    #joLogo {
+        position: absolute;
+        margin-top: 145px;
+        margin-left: -25px;
+    }
+
+    /* Contact Section CSS */
+    #contactSection {
+        background-color: #7858af;
+    }
+    
+    .contactDiv {
+        z-index: 1;
+        position: relative;
+        bottom: 60%;
+    }
+    
+    #contactDescription {
+        color: aliceblue;
+    }
+    
+    .contact {
+        color: aliceblue;
+    }
+    
+    .contactLogos {
+        width: 80px;
+        height: 80px;
+        margin: 15px;
+    }
+
+    #contactDiv {
+        margin-left: -5px;
+    }
+    
+    #gmailLogo {
+        width: 110px;
+        height: 104px;
+        padding-top: 4px;
+        margin-bottom: 5px;
+    }
+    
+    #githubLogo {
+        width: 88px;
+        height: 88px;
+        padding-bottom: -10px;
+        padding-top: 3px; 
+        margin-left: 28px;
+    }
+    
+    #stackoverflowLogo {
+        width: 85px;
+        height: 85px;
+        padding-top: -30px;
+        margin-left: 20px;
+    }
+
+    #contactLogoRow {
+        margin-bottom: 0px;
+        padding-bottom: 50px;
+    }
+}
+
+/* iPhone X Responsiveness */
+@media (max-width: 375px) {
+    /* NavBar */
+    nav {
+        width: 375px;
+    }
+
+    .nav-wrapper {
+        width: 375px;
+    }
+    
+    .brand-logo {
+        font-size: 12px;
+        margin-left: 5px;
+    }
+
+    /* Profile Section */
+    #profileDiv {
+        width: 330px;
+        margin-left: 20px;
+    }
+    /* YOU ARE HERRRRRRRRRRRRREEEEEEEEEEEEEEE */
+    .basicDiv {
+        margin-left: 10px;
+        top: 1220px;
+        position: absolute;
+    }
+
     .basicText {
         margin-left: 10px;
         text-align: center;
