@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import style.css-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Import Materialize Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Christina's Portfolio</title>
+</head>
+
+<body>
+    <!-- NavBar -->
+    <div id="nav_bar" class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="index.html#home" class="brand-logo waves-effect">Christina Wu</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li>
+                        <a class="waves-effect" href="index.html#profileSection">Profile</a>
+                    </li>
+                    <li>
+                        <a class="waves-effect" href="#experiencesSection">Experiences</a>
+                    </li>
+                    <li>
+                        <a class="waves-effect" href="#skillsSection">Skills</a>
+                    </li>
+                    <li>
+                        <a class="waves-effect" href="#projectsSection">Projects</a>
+                    </li>
+                    <li>
+                        <a class="waves-effect" href="#interestsSection">Interests</a>
+                    </li>
+                    <li>
+                        <a class="waves-effect contactNav" href="#contactSection">Contact</a>
+                    </li>
+                    <li>
+                        <a class="waves-effect contactNav" href="resume.html">Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <ul class="sidenav" id="mobile-demo">
+            <li>
+                <a href="#profileSection">Profile</a>
+            </li>
+            <li>
+                <a href="#experiencesSection">Experiences</a>
+            </li>
+            <li>
+                <a href="#skillsSection">Skills</a>
+            </li>
+            <li>
+                <a href="#projectSection">Projects</a>
+            </li>
+            <li>
+                <a href="#interestsSection">Interests</a>
+            </li>
+            <li>
+                <a href="#contactSection">Contact</a>
+            </li>
+        </ul>
+    </div>
+
+        <!-- Main Screen -->
+        <section class="overlayResume scrollspy" id="home">
+                <img id="homeImageResume" src="./assets/images/comicWoman.jpg">
+                <div class="container resumeDiv">
+                <embed src="./assets/images/ChristinaWuResume_April.pdf" width="800px" frameborder="0" height="1087px" />
+                </div>
+            </section>
+
+        <!-- Contact Section (Footer) -->
+        <section class="scrollspy" id="contactSection">
+                <div class="contactDivResume">
+                    <div class="row">
+                        <div class="col s12"></div>
+                    </div>
+                    <div class="row" id="contactLogoRow">
+                        <div class="col s2"></div>
+                        <div class="col s8 center-align" id="contactDiv">
+                            <img class="contactLogos" id="gmailLogo" src="./assets/images/logos/gmail.png">
+                            <a href="https://linkedin.com/in/christinasarahwu">
+                                <img class="contactLogos" src="./assets/images/logos/linkedin.png">
+                            </a>
+                            <a href="https://github.com/chrisyforshort">
+                                <img class="contactLogos"  id="githubLogo" src="./assets/images/logos/github.png">
+                            </a>
+                            <a href="https://stackoverflow.com/users/9217351/christina-wu">
+                                <img class="contactLogos" id="stackoverflowLogo" src="./assets/images/logos/stackOverflow.png">
+                            </a>
+                        </div>
+                        <div class="col s2 center-align">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+            <!--JavaScript at end of body for optimized loading-->
+            <script type="text/javascript" src="./assets/css/materialize/js/materialize.min.js"></script>
+            <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+            <script src="./assets/javascript/app.js"></script>
+        </body>
+        
+        </html>

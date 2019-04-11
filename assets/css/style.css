@@ -204,9 +204,19 @@ nav {
     top: -17px;
 }
 
+#phpPic {
+    top: 32%;
+}
+
+#awsPic {
+    width: 200px;
+    left: -32px;
+    top: 13%;
+}
+
 #nodePic {
     width: 120px;
-    left: 9px;
+    left: 8%;
     top: 38%;
 }
 
@@ -216,7 +226,7 @@ nav {
 
 #expressPic {
     width: 120px;
-    left: 7px;
+    left: 6%;
     top: 43%;
 }
 
@@ -226,6 +236,19 @@ nav {
 
 #handlebarPic {
     top: 25%;
+}
+
+#mongodbPic {
+    height: 150px;
+    width: 200px;
+    left: -23%;
+    top: -4%;
+}
+
+#reactPic {
+    height: 140px;
+    width: 280px;
+    left: -53%;
 }
 
 #handlebarsText {
@@ -322,6 +345,40 @@ nav {
 #contactLogoRow {
     margin-bottom: 0px;
     padding-bottom: 50px;
+}
+
+/* Resume Page */
+
+.resumeDiv{
+    z-index: 1;
+    position: relative;
+    top: -96%;
+    left: 10%;;
+    color: aliceblue;
+    font-family: "myfont";
+    font-size: 30px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#homeImageResume{
+    width: 100%;
+    height: 1200px;
+    position: relative;
+    z-index: 0;
+    opacity: .6;
+}
+
+.overlayResume {
+    width: 100%;
+    height: 1200px;
+    background-color: #7858af;
+    z-index: 2;
+}
+
+.contactDivResume {
+    z-index: 1;
+    position: relative;
+    bottom: 60%;
 }
 
 /* iPhone 6/7 Plus Responsiveness */
