@@ -64,8 +64,16 @@ nav {
     margin-left: 8px;
 }
 
+.sidenav-overlay {
+    z-index: 0;
+}
+
 .contactNav {
     margin-right: 8px;
+}
+
+.sidenavbar {
+    z-index: 2;
 }
 
 /* Home Screen CSS */
@@ -395,6 +403,10 @@ nav {
     .brand-logo {
         font-size: 10px;
         margin-left: 0px;
+    }
+
+    .sidenavbar {
+        z-index: 2;
     }
 
     /* Home Section */
@@ -922,26 +934,21 @@ nav {
 
     /* Experiences Section */
     #experienceDiv {
-        width: 360px;
+        width: 330px;
         margin-left: -40px;
     }
 
     #experienceHeader {
-        font-size: 65px;
-        margin-left: -12px;
+        font-size: 62px;
+        margin-left: -16px;
     }
 
     #experienceDescription {
-        font-size: 14px;
-    }
-
-    .experienceH2 {
-        margin-top: 0px;
-
+        font-size: 13px;
     }
 
     #eduTitle {
-        margin-left: 20px
+        margin-left: 5px
     }
 
     #uciDiv {
