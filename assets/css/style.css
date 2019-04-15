@@ -210,7 +210,7 @@ nav {
 
 #awsPic {
     width: 200px;
-    left: -32px;
+    left: -23%;
     top: 13%;
 }
 
@@ -642,6 +642,10 @@ nav {
         width: 315px;
         left: -105px;
     }
+
+    #awsPic {
+        left: -45%;
+    }
     
     #expressPic {
         width: 90px;
@@ -654,6 +658,7 @@ nav {
     .cardNameDiv {
         font-size: 12px;
      }
+     
     
     /* Portfolio CSS */
     .portfolioDiv {
@@ -685,12 +690,12 @@ nav {
     }
 
     #project2 {
-        top: 8220px;
+        top: 8920px;
         position: absolute;
     }
 
     #project3 {
-        top: 8470px;
+        top: 8970px;
         position: absolute;
     }
 
