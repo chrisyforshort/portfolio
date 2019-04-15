@@ -650,9 +650,19 @@ nav {
     #expressPic {
         width: 90px;
     }
+
+    #mongodbPic {
+        left: -44%;
+        top: -20%;
+    }
+
+    #reactPic {
+        left: -81%;
+        top: -15%;
+    }
     
     #handlebarsText {
-        margin-left: -16px;
+        margin-left: -21px;
     }
     
     .cardNameDiv {
@@ -690,27 +700,27 @@ nav {
     }
 
     #project2 {
-        top: 8920px;
+        top: 9330px;
         position: absolute;
     }
 
     #project3 {
-        top: 8970px;
+        top: 9570px;
         position: absolute;
     }
 
     #project4 {
-        top: 8710px;
+        top: 9810px;
         position: absolute;
     }
 
     #project5 {
-        top: 8960px;
+        top: 10050px;
         position: absolute;
     }
 
     #project6 {
-        top: 9210px;
+        top: 10290px;
         position: absolute;
     }
     
