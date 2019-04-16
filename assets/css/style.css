@@ -901,7 +901,7 @@ nav {
         width: 330px;
         margin-left: 20px;
     }
-    /* YOU ARE HERRRRRRRRRRRRREEEEEEEEEEEEEEE */
+
     .basicDiv {
         margin-left: 10px;
         top: 1220px;
@@ -951,67 +951,44 @@ nav {
         margin-left: 5px
     }
 
+    #ucititle {
+        margin-left: -33px;
+    }
+
     #uciDiv {
-        width: 300px;
-        margin-bottom: 240px;
-        margin-left: -10px;
+        margin-left: 12px;
+        margin-bottom: 250px;
     }
 
     #uciDiv2 {
-        position: absolute;
-        top: 2290px;
-        width: 350px;
-        margin-left: 40px;
-        text-align: center;
+        margin-left: 11px;
+    }
+
+    #santaclaratitle {
+        margin-left: -13px;
     }
 
     #scDiv {
-        width: 300px;
-        margin-left: 20px;
-        margin-bottom: 90px;
+        margin-left: 80px;
     }
 
     #scDiv2 {
-        position: absolute;
-        top: 2630px;
-        width: 350px;
-        margin-left: 40px;
-        text-align: center;
+        margin-left: 18px;
     }
 
     #purdueDiv {
-        width: 300px;
-        margin-left: 20px;
-        margin-bottom: 200px;
-        margin-top: 20px;
+        margin-left: 65px;
     }
 
     #purdueDiv2 {
-        position: absolute;
-        top: 2920px;
-        width: 350px;
-        margin-left: 40px;
-        text-align: center;
+        margin-left: 16px;
     }
     
     #purdueTitle {
-        margin-left: 25px;
-    }
-    
-    #purdueText {
-        font-size: 13px;
+        margin-left: 40px;
     }
 
-    #minorsText {
-        font-size: 13px;
-    }
-
-    #workHeader {
-        margin-top: 0px;
-        text-align: center;
-        margin-left: -60px;
-    }
-
+        /* YOU ARE HERRRRRRRRRRRRREEEEEEEEEEEEEEE */
     #lexonetDiv {
         width: 300px;
         margin-left: 20px;
