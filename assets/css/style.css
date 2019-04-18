@@ -916,7 +916,7 @@ nav {
     .profilePic {
         height: 285px;
         width: 345px;
-        margin-left: -110px;
+        margin-left: -120px;
         margin-bottom: 460px;
     }
     
@@ -961,7 +961,7 @@ nav {
     }
 
     #uciDiv2 {
-        margin-left: 11px;
+        margin-left: 14px;
     }
 
     #santaclaratitle {
@@ -970,10 +970,11 @@ nav {
 
     #scDiv {
         margin-left: 80px;
+        width: 250px;
     }
 
     #scDiv2 {
-        margin-left: 18px;
+        margin-left: 16px;
     }
 
     #purdueDiv {
@@ -989,31 +990,35 @@ nav {
     }
 
         /* YOU ARE HERRRRRRRRRRRRREEEEEEEEEEEEEEE */
+    #lexonetTitle{
+        margin-left: 49px;
+    }
+
     #lexonetDiv {
-        width: 300px;
-        margin-left: 20px;
-        margin-bottom: 220px;
+        margin-left: 80px;
+        margin-bottom: 250px;
+        width: 250px;
     }
 
     #lexonetDiv2 {
         position: absolute;
         top: 3380px;
         width: 350px;
-        margin-left: 40px;
+        margin-left: 20px;
         text-align: center;
     }
 
     #superiorDiv {
         width: 300px;
         margin-left: 20px;
-        margin-bottom: 220px;
+        margin-bottom: 240px;
     }
 
     #superiorDiv2 {
         position: absolute;
         top: 3765px;
         width: 350px;
-        margin-left: 40px;
+        margin-left: 20px;
         text-align: center;
     }
 
@@ -1028,7 +1033,7 @@ nav {
         position: absolute;
         top: 4180px;
         width: 350px;
-        margin-left: 40px;
+        margin-left: 20px;
         text-align: center;
     }
     
@@ -1043,7 +1048,7 @@ nav {
         position: absolute;
         top: 4600px;
         width: 350px;
-        margin-left: 40px;
+        margin-left: 20px;
         text-align: center;
     }
 
@@ -1058,7 +1063,7 @@ nav {
         position: absolute;
         top: 4965px;
         width: 350px;
-        margin-left: 40px;
+        margin-left: 20px;
         text-align: center;
     }
 
@@ -1073,21 +1078,22 @@ nav {
         position: absolute;
         top: 5400px;
         width: 350px;
-        margin-left: 40px;
+        margin-left: 20px;
         text-align: center;
     }
 
     /* Skills Section CSS */
     .card {
-        width: 105px;
-        height: 130px;
-        margin: 10px;
-        margin-bottom: 30px;
+        width: 90px;
+        height: 110px;
+        margin: 9px;
+        margin-right: 12px;
+        margin-bottom: 60px;
     }
     
     .card-image {
-        height: 105px;
-        width: 105px;
+        height: 110px;
+        width: 90px;
     }
     
     #cssPic {
@@ -1110,8 +1116,8 @@ nav {
     
     /* Portfolio CSS */
     .portfolioDiv {
-        width: 370px;
-        height: 210px;
+        width: 330px;
+        height: 170px;
         margin: 5px;
         margin-left: 10px;
         margin-right: 0px;
@@ -1119,15 +1125,15 @@ nav {
     }
 
     .screenImg {
-        width: 285px;
-        height: 165px;
+        width: 245px;
+        height: 125px;
         position: relative;
         z-index: 2;
     }
 
     .portfolioPic {
-        width: 250px;
-        height: 120px;
+        width: 210px;
+        height: 80px;
         left: 59px;
         top: 29px;
     }
