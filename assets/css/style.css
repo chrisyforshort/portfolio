@@ -982,11 +982,11 @@ nav {
     }
 
     #purdueDiv2 {
-        margin-left: 16px;
+        margin-left: 15px;
     }
     
     #purdueTitle {
-        margin-left: 40px;
+        margin-left: 33px;
     }
 
         /* YOU ARE HERRRRRRRRRRRRREEEEEEEEEEEEEEE */
@@ -995,91 +995,86 @@ nav {
     }
 
     #lexonetDiv {
-        margin-left: 80px;
-        margin-bottom: 250px;
-        width: 250px;
+        margin-left: 70px;
+        margin-bottom: 260px;
     }
 
     #lexonetDiv2 {
-        position: absolute;
-        top: 3380px;
-        width: 350px;
-        margin-left: 20px;
-        text-align: center;
+        margin-left: 12px;
+    }
+
+    #superiorTitle {
+        font-size: 19px;
+        margin-left: -49px;
     }
 
     #superiorDiv {
-        width: 300px;
-        margin-left: 20px;
-        margin-bottom: 240px;
+        width: 400px;
+        margin-left: 87px;
+        margin-bottom: 205px;
     }
 
     #superiorDiv2 {
-        position: absolute;
-        top: 3765px;
-        width: 350px;
-        margin-left: 20px;
-        text-align: center;
+        margin-left: 14px;
+    }
+
+    #fargoTitle {
+        margin-left: -42px;
     }
 
     #fargoDiv {
-        width: 300px;
-        margin-left: 20px;
-        margin-bottom: 215px;
-        margin-top: 30px;
+        width: 340px;
+        margin-left: 82px;
+        margin-bottom: 203px;
     }
 
     #fargoDiv2 {
-        position: absolute;
-        top: 4180px;
-        width: 350px;
-        margin-left: 20px;
-        text-align: center;
+        top: 4135px;
+        margin-left: 14px;
+    }
+
+    #jackTitle {
+        margin-left: 8px;
     }
     
     #jackDiv {
-        width: 300px;
-        margin-left: 20px;
-        margin-bottom: 170px;
-        margin-top: 75px;
+        margin-left: 73px;
     }
 
     #jackDiv2 {
-        position: absolute;
-        top: 4600px;
-        width: 350px;
+        top: 4550px;
+        margin-left: 15px;
+    }
+
+    #allTitle {
         margin-left: 20px;
-        text-align: center;
     }
 
     #allDiv {
-        width: 300px;
-        margin-left: 45px;
-        margin-bottom: 240px;
-        margin-top: 55px;
+        margin-left: 83px;
+        margin-bottom: 200px;
+        margin-top: 48px;
     }
 
     #allDiv2 {
-        position: absolute;
-        top: 4965px;
-        width: 350px;
-        margin-left: 20px;
-        text-align: center;
+        top: 4905px;
+        margin-left: 16px;
+    }
+
+    #digestiveTitle {
+        margin-left: -49px;
     }
 
     #digestiveDiv {
-        width: 300px;
-        margin-left: 20px;
-        margin-bottom: 230px;
-        margin-top: 35px;
+        width: 400px;
+        margin-left: 80px;
+        margin-bottom: 220px;
+        margin-top: 68px;
     }
 
     #digestiveDiv2 {
-        position: absolute;
-        top: 5400px;
-        width: 350px;
-        margin-left: 20px;
-        text-align: center;
+        top: 5315px;
+        margin-left: 11px;
     }
 
     /* Skills Section CSS */
