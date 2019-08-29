@@ -263,6 +263,10 @@ nav {
     margin-left: -16px;
 }
 
+#drupalPic {
+    height: 97%;
+}
+
 .skillName{
     color: #7858af;
 }
@@ -548,15 +552,29 @@ nav {
         margin-left: -60px;
     }
 
+    #trinetDiv {
+        width: 300px;
+        margin-left: 20px;
+        margin-bottom: 240px;
+    }
+
+    #trinetDiv2 {
+        position: absolute;
+        top: 3380px;
+        width: 350px;
+        margin-left: 40px;
+        text-align: center;
+    }
+
     #lexonetDiv {
         width: 300px;
         margin-left: 20px;
-        margin-bottom: 220px;
+        margin-bottom: 290px;
     }
 
     #lexonetDiv2 {
         position: absolute;
-        top: 3380px;
+        top: 3750px;
         width: 350px;
         margin-left: 40px;
         text-align: center;
@@ -565,12 +583,12 @@ nav {
     #superiorDiv {
         width: 300px;
         margin-left: 20px;
-        margin-bottom: 220px;
+        margin-bottom: 210px;
     }
 
     #superiorDiv2 {
         position: absolute;
-        top: 3765px;
+        top: 4200px;
         width: 350px;
         margin-left: 40px;
         text-align: center;
@@ -579,13 +597,13 @@ nav {
     #fargoDiv {
         width: 300px;
         margin-left: 20px;
-        margin-bottom: 215px;
+        margin-bottom: 210px;
         margin-top: 30px;
     }
 
     #fargoDiv2 {
         position: absolute;
-        top: 4180px;
+        top: 4605px;
         width: 350px;
         margin-left: 40px;
         text-align: center;
@@ -600,7 +618,7 @@ nav {
 
     #jackDiv2 {
         position: absolute;
-        top: 4600px;
+        top: 5025px;
         width: 350px;
         margin-left: 40px;
         text-align: center;
@@ -615,7 +633,7 @@ nav {
 
     #allDiv2 {
         position: absolute;
-        top: 4965px;
+        top: 5385px;
         width: 350px;
         margin-left: 40px;
         text-align: center;
@@ -624,13 +642,13 @@ nav {
     #digestiveDiv {
         width: 300px;
         margin-left: 20px;
-        margin-bottom: 230px;
+        margin-bottom: 210px;
         margin-top: 35px;
     }
 
     #digestiveDiv2 {
         position: absolute;
-        top: 5400px;
+        top: 5820px;
         width: 350px;
         margin-left: 40px;
         text-align: center;
@@ -712,27 +730,27 @@ nav {
     }
 
     #project2 {
-        top: 9330px;
+        top: 9930px;
         position: absolute;
     }
 
     #project3 {
-        top: 9570px;
+        top: 10180px;
         position: absolute;
     }
 
     #project4 {
-        top: 9810px;
+        top: 10430px;
         position: absolute;
     }
 
     #project5 {
-        top: 10050px;
+        top: 10680px;
         position: absolute;
     }
 
     #project6 {
-        top: 10290px;
+        top: 10930px;
         position: absolute;
     }
     
@@ -990,16 +1008,16 @@ nav {
     }
 
         /* YOU ARE HERRRRRRRRRRRRREEEEEEEEEEEEEEE */
-    #lexonetTitle{
+    #trinetTitle{
         margin-left: 49px;
     }
 
-    #lexonetDiv {
+    #trinetDiv {
         margin-left: 70px;
         margin-bottom: 260px;
     }
 
-    #lexonetDiv2 {
+    #trinetDiv2 {
         margin-left: 12px;
     }
 
