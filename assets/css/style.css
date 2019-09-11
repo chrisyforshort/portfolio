@@ -115,23 +115,16 @@ nav {
 }
 
 /* Profile Section CSS */
-.basicDiv {
-    margin-left: 30px;
-}
-
-.basicText {
-    margin-left: 30px;
+.profileRow {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
 }
 
 .profilePic {
     height: 302px;
-    width: 353px;
-    margin-left: 50px;
+    width: 353px;    
     border: solid 10px #7858af7a;
-}
-
-.aboutMe {
-    margin-left: 60px;
 }
 
 /* Experiences Section CSS */
@@ -392,13 +385,10 @@ nav {
     bottom: 60%;
 }
 
-@media (max-width: 14034px) {
-    .basicDiv {
-        margin-left: -40px;
-    }
-
+@media (max-width: 573px) {
     .profilePic {
-        margin-left: -5px;
+        height: 272px;
+        width: 323px;   
     }
 }
 
@@ -441,54 +431,45 @@ nav {
     }
 
     /* Profile Section */
-    #profileDiv {
-        width: 360px;
-        margin-left: -40px;
-    }
-
     .basicDiv {
-        margin-left: 20px;
+        margin-left: 35px;
         top: 1220px;
         position: absolute;
     }
     
     .basicText {
-        margin-left: 10px;
         text-align: center;
     }
     
     .profilePic {
-        height: 285px;
-        width: 345px;
-        margin-left: -110px;
-        margin-bottom: 460px;
+        margin-bottom: 510px;
+        height: 232px;
+        width: 270px;  
     }
     
     .aboutMe {
-        margin-left: -130px;
         position: absolute;
         top: 1400px;
+    }
+
+    #aboutMeTitle {
+        padding-left: 40px;
     }
     
     #aboutMePara {
         top: 1470px;
-        margin-left: -200px;
         width: 310px;
+        margin-left: -20px;
     }
 
     /* Experiences Section */
-    #experienceDiv {
-        width: 360px;
-        margin-left: -40px;
-    }
-
     #experienceHeader {
-        font-size: 65px;
-        margin-left: -12px;
+        font-size: 60px;
+        margin-left: -30px;
     }
 
     #experienceDescription {
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .experienceH2 {
@@ -510,8 +491,8 @@ nav {
         position: absolute;
         top: 2290px;
         width: 350px;
-        margin-left: 40px;
         text-align: center;
+        margin-left: -30px;
     }
 
     #scDiv {
@@ -931,7 +912,7 @@ nav {
 
     .basicDiv {
         margin-left: 10px;
-        top: 1220px;
+        top: 1190px;
         position: absolute;
     }
 
@@ -941,37 +922,26 @@ nav {
     }
     
     .profilePic {
-        height: 285px;
-        width: 345px;
-        margin-left: -120px;
-        margin-bottom: 460px;
+        margin-left: -15px;
+        margin-bottom: 510px;
     }
     
     .aboutMe {
-        margin-left: -130px;
         position: absolute;
-        top: 1400px;
+        top: 1380px;
     }
     
     #aboutMePara {
-        top: 1470px;
-        margin-left: -200px;
+        top: 1450px;
         width: 310px;
     }
 
     /* Experiences Section */
-    #experienceDiv {
-        width: 330px;
-        margin-left: -40px;
-    }
+
 
     #experienceHeader {
-        font-size: 62px;
-        margin-left: -16px;
-    }
-
-    #experienceDescription {
-        font-size: 13px;
+        font-size: 55px;
+        margin-left: -29px;
     }
 
     #eduTitle {
@@ -988,7 +958,7 @@ nav {
     }
 
     #uciDiv2 {
-        margin-left: 14px;
+        width: 310px;
     }
 
     #santaclaratitle {
