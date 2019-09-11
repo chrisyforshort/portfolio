@@ -24,7 +24,6 @@ h1, h2, h3 {
 }
 
 .paragraph {
-    text-align: justify;
     text-indent: 50px;
 }
 
@@ -125,9 +124,9 @@ nav {
 }
 
 .profilePic {
-    height: 305px;
-    width: 363px;
-    margin-left: 62px;
+    height: 302px;
+    width: 353px;
+    margin-left: 50px;
     border: solid 10px #7858af7a;
 }
 
@@ -184,7 +183,7 @@ nav {
 /* Skills Section CSS */
 .card {
     width: 135px;
-    height: 160px;
+    height: 185px;
     float: left;
     margin-top: 0px;
     margin: 13px;
@@ -192,7 +191,7 @@ nav {
 }
 
 .cardDiv {
-    display: inline;
+    flex-wrap: wrap-reverse;
 }
 
 .card-image {
@@ -391,6 +390,16 @@ nav {
     z-index: 1;
     position: relative;
     bottom: 60%;
+}
+
+@media (max-width: 14034px) {
+    .basicDiv {
+        margin-left: -40px;
+    }
+
+    .profilePic {
+        margin-left: -5px;
+    }
 }
 
 /* iPhone 6/7 Plus Responsiveness */
