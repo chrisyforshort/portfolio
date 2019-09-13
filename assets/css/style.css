@@ -465,6 +465,14 @@ nav {
 }
 
 @media (max-width: 908px) {
+    .name {
+        font-size: 80px;
+    }
+
+    .nameDiv {
+        font-size: 25px;
+    }
+
     .row .col.offset-s4 {
         margin-left: 20%;
     }
@@ -492,6 +500,14 @@ nav {
         height: 84px;
         padding-top: 4px;
         margin-bottom: 3px;
+    }
+
+    .name {
+        font-size: 60px;
+    }
+
+    .nameDiv {
+        font-size: 20px;
     }
 }
 
