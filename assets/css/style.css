@@ -476,6 +476,12 @@ nav {
         font-size: 13px;
     }
 
+    .row .col.s9  {
+        width: 320px;
+        text-align: center;
+        margin-left: -20px;
+    }
+
     .experienceH2 {
         margin-top: 0px;
 
@@ -489,28 +495,13 @@ nav {
         width: 300px;
     }
 
-    #uciDiv2 {
-        width: 300px;
-        text-align: center;
-    }
-
     #scDiv {
         width: 300px;
         height: 84px;
     }
 
-    #scDiv2 {
-        width: 300px;
-        text-align: center;
-    }
-
     #purdueDiv {
         width: 300px;
-    }
-
-    #purdueDiv2 {
-        width: 300px;
-        text-align: center;
     }
     
     #purdueTitle {
@@ -534,63 +525,28 @@ nav {
         width: 300px;
     }
 
-    #trinetDiv2 {
-        width: 300px;
-        text-align: center;
-    }
-
     #lexonetDiv {
         width: 300px;
-    }
-
-    #lexonetDiv2 {
-        width: 300px;
-        text-align: center;
     }
 
     #superiorDiv {
         width: 300px;
     }
 
-    #superiorDiv2 {
-        width: 300px;
-        text-align: center;
-    }
-
     #fargoDiv {
         width: 300px;
-    }
-
-    #fargoDiv2 {
-        width: 300px;
-        text-align: center;
     }
     
     #jackDiv {
         width: 300px;
     }
 
-    #jackDiv2 {
-        width: 300px;
-        text-align: center;
-    }
-
     #allDiv {
         width: 300px;
     }
 
-    #allDiv2 {
-        margin-left: 40px;
-        text-align: center;
-    }
-
     #digestiveDiv {
         width: 300px;
-    }
-
-    #digestiveDiv2 {
-        width: 300px;
-        text-align: center;
     }
 
     /* Skills Section CSS */
