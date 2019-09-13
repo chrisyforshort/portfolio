@@ -1121,3 +1121,193 @@ nav {
         top: 29px;
     }
 }
+
+/* Samsung Galaxy S10 Responsiveness 360 x 760*/
+@media (max-width: 360px) {
+    /* NavBar */
+    nav {
+        width: 360px;
+    }
+
+    .nav-wrapper {
+        width: 360px;
+    }
+
+    .brand-logo {
+        font-size: 10px;
+        margin-left: 0px;
+    }
+
+    /* Profile Section */
+    #profileDiv {
+        width: 330px;
+        margin-left: 20px;
+    }
+
+    .basicDiv {
+        margin-left: 10px;
+        top: 1190px;
+        position: absolute;
+    }
+
+    .basicText {
+        margin-left: 10px;
+        text-align: center;
+    }
+
+    .profilePic {
+        margin-left: -15px;
+        margin-bottom: 510px;
+    }
+
+    #aboutMePara {
+        margin-left: -40px;
+    }
+
+    /* Experiences Section */
+
+
+    #experienceHeader {
+        font-size: 55px;
+        margin-left: -29px;
+    }
+
+    #eduTitle {
+        margin-left: 5px
+    }
+
+    #ucititle {
+        margin-left: -33px;
+    }
+
+    #uciDiv2 {
+        width: 310px;
+        margin-left: -30px;
+    }
+
+    #scDiv {
+        width: 250px;
+    }
+
+    #scDiv2 {
+        margin-left: -30px;
+    }
+
+    #purdueDiv2 {
+        margin-left: -25px;
+    }
+
+    #purdueTitle {
+        margin-left: 33px;
+    }
+
+    #trinetDiv2 {
+        margin-left: -20px;
+    }
+
+    #lexonetDiv2 {
+        margin-left: -20px;
+    }
+
+    #superiorTitle {
+        font-size: 19px;
+    }
+
+    #superiorDiv {
+        width: 400px;
+    }
+
+    #superiorDiv2 {
+        margin-left: -20px;
+    }
+
+    #fargoDiv {
+        width: 340px;
+    }
+
+    #fargoDiv2 {
+        margin-left: -25px;
+    }
+
+    #jackTitle {
+        margin-left: 8px;
+    }
+
+    #jackDiv2 {
+        margin-left: -25px;
+    }
+
+    #allDiv2 {
+        margin-left: -25px;
+        width: 300px;
+    }
+
+    #digestiveTitle {
+        margin-left: -29px;
+    }
+
+    #digestiveDiv {
+        width: 400px;
+    }
+
+    #digestiveDiv2 {
+        margin-left: -25px;
+    }
+
+            /* YOU ARE HERRRRRRRRRRRRREEEEEEEEEEEEEEE */
+    /* Skills Section CSS */
+    .card {
+        width: 90px;
+        height: 110px;
+        margin: 9px;
+        margin-right: 12px;
+        margin-bottom: 60px;
+    }
+
+    .card-image {
+        height: 110px;
+        width: 90px;
+    }
+
+    #cssPic {
+        height: 170px;
+        width: 315px;
+        left: -105px;
+    }
+
+    #expressPic {
+        width: 90px;
+    }
+
+    #handlebarsText {
+        margin-left: -16px;
+    }
+
+    .cardNameDiv {
+        font-size: 12px;
+    }
+
+    /* Portfolio CSS */
+    .portfolioDiv {
+        width: 330px;
+        height: 170px;
+        margin: 5px;
+        margin-left: 10px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .screenImg {
+        width: 245px;
+        height: 125px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .portfolioPic {
+        width: 210px;
+        height: 80px;
+        left: 59px;
+        top: 29px;
+    }
+}
