@@ -128,6 +128,10 @@ nav {
 }
 
 /* Experiences Section CSS */
+.experienceRow {
+    margin-bottom: 0px;
+}
+
 .experienceTitle {
     font-weight: bolder;
     font-size: 20px; 
@@ -483,44 +487,29 @@ nav {
 
     #uciDiv {
         width: 300px;
-        margin-bottom: 240px;
-        margin-left: -10px;
     }
 
     #uciDiv2 {
-        position: absolute;
-        top: 2290px;
-        width: 350px;
+        width: 300px;
         text-align: center;
-        margin-left: -30px;
     }
 
     #scDiv {
         width: 300px;
-        margin-left: 20px;
-        margin-bottom: 90px;
+        height: 84px;
     }
 
     #scDiv2 {
-        position: absolute;
-        top: 2630px;
-        width: 350px;
-        margin-left: 40px;
+        width: 300px;
         text-align: center;
     }
 
     #purdueDiv {
         width: 300px;
-        margin-left: 20px;
-        margin-bottom: 200px;
-        margin-top: 20px;
     }
 
     #purdueDiv2 {
-        position: absolute;
-        top: 2920px;
-        width: 350px;
-        margin-left: 40px;
+        width: 300px;
         text-align: center;
     }
     
@@ -539,108 +528,68 @@ nav {
     #workHeader {
         margin-top: 0px;
         text-align: center;
-        margin-left: -60px;
     }
 
     #trinetDiv {
         width: 300px;
-        margin-left: 20px;
-        margin-bottom: 240px;
     }
 
     #trinetDiv2 {
-        position: absolute;
-        top: 3380px;
-        width: 350px;
-        margin-left: 40px;
+        width: 300px;
         text-align: center;
     }
 
     #lexonetDiv {
         width: 300px;
-        margin-left: 20px;
-        margin-bottom: 290px;
     }
 
     #lexonetDiv2 {
-        position: absolute;
-        top: 3750px;
-        width: 350px;
-        margin-left: 40px;
+        width: 300px;
         text-align: center;
     }
 
     #superiorDiv {
         width: 300px;
-        margin-left: 20px;
-        margin-bottom: 210px;
     }
 
     #superiorDiv2 {
-        position: absolute;
-        top: 4200px;
-        width: 350px;
-        margin-left: 40px;
+        width: 300px;
         text-align: center;
     }
 
     #fargoDiv {
         width: 300px;
-        margin-left: 20px;
-        margin-bottom: 210px;
-        margin-top: 30px;
     }
 
     #fargoDiv2 {
-        position: absolute;
-        top: 4605px;
-        width: 350px;
-        margin-left: 40px;
+        width: 300px;
         text-align: center;
     }
     
     #jackDiv {
         width: 300px;
-        margin-left: 20px;
-        margin-bottom: 170px;
-        margin-top: 75px;
     }
 
     #jackDiv2 {
-        position: absolute;
-        top: 5025px;
-        width: 350px;
-        margin-left: 40px;
+        width: 300px;
         text-align: center;
     }
 
     #allDiv {
         width: 300px;
-        margin-left: 45px;
-        margin-bottom: 240px;
-        margin-top: 55px;
     }
 
     #allDiv2 {
-        position: absolute;
-        top: 5385px;
-        width: 350px;
         margin-left: 40px;
         text-align: center;
     }
 
     #digestiveDiv {
         width: 300px;
-        margin-left: 20px;
-        margin-bottom: 210px;
-        margin-top: 35px;
     }
 
     #digestiveDiv2 {
-        position: absolute;
-        top: 5820px;
-        width: 350px;
-        margin-left: 40px;
+        width: 300px;
         text-align: center;
     }
 
@@ -694,10 +643,6 @@ nav {
     .portfolioDiv {
         width: 370px;
         height: 210px;
-        margin: 5px;
-        margin-left: 10px;
-        margin-right: 0px;
-        margin-bottom: 20px;
     }
 
     .screenImg {
@@ -714,34 +659,15 @@ nav {
         top: 29px;
     }
 
-    #project1 {
-        margin-bottom: 1200px;
-        margin-left: -19px;
+    .projectRow {
+        flex-direction: column;
+        flex-wrap: wrap;
+        display: flex;
     }
 
-    #project2 {
-        top: 9930px;
-        position: absolute;
-    }
+    .row .col.s6.projectDiv {
+        margin-left: -27px;
 
-    #project3 {
-        top: 10180px;
-        position: absolute;
-    }
-
-    #project4 {
-        top: 10430px;
-        position: absolute;
-    }
-
-    #project5 {
-        top: 10680px;
-        position: absolute;
-    }
-
-    #project6 {
-        top: 10930px;
-        position: absolute;
     }
     
     /* Interests Section CSS */
@@ -857,34 +783,37 @@ nav {
     }
 
     #contactDiv {
-        margin-left: -5px;
+        /* margin-left: -5px; */
+        display: flex;
+        flex-wrap: wrap;
     }
     
     #gmailLogo {
         width: 110px;
         height: 104px;
-        padding-top: 4px;
-        margin-bottom: 5px;
+        margin-left: 0px;
+        /* padding-top: 4px; */
+        /* margin-bottom: 5px; */
     }
     
     #githubLogo {
         width: 88px;
         height: 88px;
-        padding-bottom: -10px;
-        padding-top: 3px; 
-        margin-left: 28px;
+        /* padding-bottom: -10px; */
+        /* padding-top: 3px;  */
+        /* margin-left: 28px; */
     }
     
     #stackoverflowLogo {
         width: 85px;
         height: 85px;
-        padding-top: -30px;
-        margin-left: 20px;
+        /* padding-top: -30px; */
+        /* margin-left: 20px; */
     }
 
     #contactLogoRow {
-        margin-bottom: 0px;
-        padding-bottom: 50px;
+        /* margin-bottom: 0px; */
+        /* padding-bottom: 50px; */
     }
 }
 
@@ -926,14 +855,8 @@ nav {
         margin-bottom: 510px;
     }
     
-    .aboutMe {
-        position: absolute;
-        top: 1380px;
-    }
-    
     #aboutMePara {
-        top: 1450px;
-        width: 310px;
+        margin-left: -40px;
     }
 
     /* Experiences Section */
@@ -952,128 +875,81 @@ nav {
         margin-left: -33px;
     }
 
-    #uciDiv {
-        margin-left: 12px;
-        margin-bottom: 250px;
-    }
-
     #uciDiv2 {
         width: 310px;
-    }
-
-    #santaclaratitle {
-        margin-left: -13px;
+        margin-left: -30px;
     }
 
     #scDiv {
-        margin-left: 80px;
         width: 250px;
     }
 
     #scDiv2 {
-        margin-left: 16px;
-    }
-
-    #purdueDiv {
-        margin-left: 65px;
+        margin-left: -30px;
     }
 
     #purdueDiv2 {
-        margin-left: 15px;
+        margin-left: -25px;
     }
     
     #purdueTitle {
         margin-left: 33px;
     }
 
-        /* YOU ARE HERRRRRRRRRRRRREEEEEEEEEEEEEEE */
-    #trinetTitle{
-        margin-left: 49px;
-    }
-
-    #trinetDiv {
-        margin-left: 70px;
-        margin-bottom: 260px;
-    }
-
     #trinetDiv2 {
-        margin-left: 12px;
+        margin-left: -20px;
+    }
+
+    #lexonetDiv2 {
+        margin-left: -20px;
     }
 
     #superiorTitle {
         font-size: 19px;
-        margin-left: -49px;
     }
 
     #superiorDiv {
         width: 400px;
-        margin-left: 87px;
-        margin-bottom: 205px;
     }
 
     #superiorDiv2 {
-        margin-left: 14px;
-    }
-
-    #fargoTitle {
-        margin-left: -42px;
+        margin-left: -20px;
     }
 
     #fargoDiv {
         width: 340px;
-        margin-left: 82px;
-        margin-bottom: 203px;
     }
 
     #fargoDiv2 {
-        top: 4135px;
-        margin-left: 14px;
+        margin-left: -25px;
     }
 
     #jackTitle {
         margin-left: 8px;
     }
-    
-    #jackDiv {
-        margin-left: 73px;
-    }
 
     #jackDiv2 {
-        top: 4550px;
-        margin-left: 15px;
-    }
-
-    #allTitle {
-        margin-left: 20px;
-    }
-
-    #allDiv {
-        margin-left: 83px;
-        margin-bottom: 200px;
-        margin-top: 48px;
+        margin-left: -25px;
     }
 
     #allDiv2 {
-        top: 4905px;
-        margin-left: 16px;
+        margin-left: -25px;
+        width: 300px;
     }
 
     #digestiveTitle {
-        margin-left: -49px;
+        margin-left: -29px;
     }
 
     #digestiveDiv {
         width: 400px;
-        margin-left: 80px;
-        margin-bottom: 220px;
-        margin-top: 68px;
     }
 
     #digestiveDiv2 {
-        top: 5315px;
-        margin-left: 11px;
+        margin-left: -25px;
     }
 
+            /* YOU ARE HERRRRRRRRRRRRREEEEEEEEEEEEEEE */
     /* Skills Section CSS */
     .card {
         width: 90px;
@@ -1128,178 +1004,5 @@ nav {
         height: 80px;
         left: 59px;
         top: 29px;
-    }
-
-    #project1 {
-        margin-bottom: 1200px;
-        margin-left: -19px;
-    }
-
-    #project2 {
-        top: 9390px;
-        position: absolute;
-    }
-
-    #project3 {
-        top: 9620px;
-        position: absolute;
-    }
-
-    #project4 {
-        top: 9850px;
-        position: absolute;
-    }
-
-    #project5 {
-        top: 10080px;
-        position: absolute;
-    }
-
-    #project6 {
-        top: 10310px;
-        position: absolute;
-    }
-    
-    /* Interests Section CSS */
-    #interestsRow {
-        padding-bottom: 50px;
-    }
-
-    #interestTitleHeader {
-        margin-top: 90px;
-    }
-    
-    .interestLogo {
-        width: 110px;
-        height: 110px;
-        margin-top: 13px;
-    }
-
-    .interestDiv {
-        font-size: 16px;
-    }
-
-    #scubaDivingLogo {
-        margin-left: -70px;
-        margin-top: 120px;
-        position: absolute;
-    }
-
-    #sportsHeader {
-        margin-left: -40px;
-    }
-    
-    #scubaDiv {
-        margin-left: 70px;
-        width: 200px;
-    }
-
-    #entertainmentDiv {
-        width: 200px;
-        margin-left: -60px;
-    }
-
-    #entertainmentHeader {
-        margin-left: 17px;
-    }
-
-    #videoGamesLogo {
-        position: absolute;
-        margin-top: 130px;
-        margin-left: -20px;
-    }
-
-    #travelDiv {
-        width: 200px;
-        margin-left: 75px;
-    }
-
-    #travelHeader {
-        margin-left: -70px;
-    }
-
-    #travelLogo {
-        position: absolute;
-        margin-top: 125px;
-        margin-left: -65px;
-    }
-
-    #joDiv {
-        width: 200px;
-        margin-left: -60px;
-    }
-
-    #joHeader {
-        margin-left: -20px;
-        width: 350px;
-        margin-bottom: 50px;
-    }
-
-    #wu {
-        margin-left: -190px;
-        margin-top: 40px;
-        position: absolute;
-    }
-
-    #joLogo {
-        position: absolute;
-        margin-top: 145px;
-        margin-left: -25px;
-    }
-
-    /* Contact Section CSS */
-    #contactSection {
-        background-color: #7858af;
-    }
-    
-    .contactDiv {
-        z-index: 1;
-        position: relative;
-        bottom: 60%;
-    }
-    
-    #contactDescription {
-        color: aliceblue;
-    }
-    
-    .contact {
-        color: aliceblue;
-    }
-    
-    .contactLogos {
-        width: 80px;
-        height: 80px;
-        margin: 15px;
-    }
-
-    #contactDiv {
-        margin-left: -5px;
-    }
-    
-    #gmailLogo {
-        width: 110px;
-        height: 104px;
-        padding-top: 4px;
-        margin-bottom: 5px;
-    }
-    
-    #githubLogo {
-        width: 88px;
-        height: 88px;
-        padding-bottom: -10px;
-        padding-top: 3px; 
-        margin-left: 28px;
-    }
-    
-    #stackoverflowLogo {
-        width: 85px;
-        height: 85px;
-        padding-top: -30px;
-        margin-left: 20px;
-    }
-
-    #contactLogoRow {
-        margin-bottom: 0px;
-        padding-bottom: 50px;
     }
 }

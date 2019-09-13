@@ -52,7 +52,6 @@
                 </ul>
             </div>
         </nav>
-
         <ul class="sidenav sidenavbar" id="mobile-demo">
             <li>
                 <a href="#profileSection">Profile</a>
@@ -77,16 +76,14 @@
             </li>
         </ul>
     </div>
-
     <!-- Home Screen -->
     <section class="overlay scrollspy" id="home">
-        <img id="homeImage" src="./assets/images/comicWoman.jpg">
+        <img id="homeImage" src="./assets/images/comicWoman.jpg" alt="Comic Style Background">
         <div class="container nameDiv">
             <h1 class="center-align name">Christina Sarah Wu</h2>
-                <p class="center-align interactive">Interactive Portfolio</p>
+            <p class="center-align interactive">Interactive Portfolio</p>
         </div>
     </section>
-
     <!-- Profile -->
     <section class="scrollspy" id="profileSection">
         <div class="divSpacing">
@@ -107,7 +104,7 @@
                                 <p class="leftDiv center-align basicText">
                                     <span class="bold">Age:</span> 25</p>
                             </div>
-                            <img class="circle responsive img profilePic" src="./assets/images/profilePic.jpg">
+                            <img class="circle responsive img profilePic" src="./assets/images/profilePic.jpg" alt="Christina Wu Headshot">
                             <h3 class="aboutMe" id="aboutMeTitle">About Me</h3>
                             <p class="paragraph aboutMe" id="aboutMePara">Christina Wu is a Southern California native currently residing in Irvine, California. She has previously
                                 lived abroad in Shanghai, China and Taipei, Taiwan. She graduated from Purdue University with a BA
@@ -120,7 +117,6 @@
             </div>
         </div>
     </section>
-
     <!-- Experiences Section -->
     <section class="scrollspy" id="experiencesSection">
         <div class="divSpacing tanDiv">
@@ -133,227 +129,240 @@
             </div>
             <!-- Education Section -->
             <div class="row">
-                <div class="col s2"></div>
-                <div class="col s10">
+                <div class="col s8 offset-s2">
                     <h2 class="experienceH2" id="eduTitle">Education</h2>
                 </div>
             </div>
-            <div class="row">
-                <div class="col s6 offset-s2">
-                    <div class="col s4" id="uciDiv">
-                        <a href="https://bootcamp.ce.uci.edu/coding/" id="ucititle" class="experienceTitle">University of California, Irvine</a>
-                        <br>
-                        <i class="small material-icons dateLogo">date_range</i>
-                        <p class="experienceDate">January 2018 - July 2018</p>
-                        <i class="small material-icons">location_on</i>
-                        <p class="experienceLocation">Irvine, California</p>
-                    </div>
-                    <div class="col s8" id="uciDiv2">
-                        <p class="titleText">Coding Boot Camp</p>
-                        <p>Six months-long full stack web development boot camp focused on building practical real-world application while learning.
-                            The course covers computer science applied to Javascript, browser-based technologies,
-                            databases, Node.js, quality assurance, internet marketing, and deployment.
-                            Some of the languages/ skills learned include HTML, CSS, Javascript, React.js,
-                                MySQL, Git, and more.
-                        </p>
+            <div class="row experienceRow">
+                <div class="col s8 offset-s2">
+                    <div class="row">
+                        <div class="col s3" id="uciDiv">
+                            <a href="https://bootcamp.ce.uci.edu/coding/" id="ucititle" class="experienceTitle">University of California, Irvine</a>
+                            <br>
+                            <i class="small material-icons dateLogo">date_range</i>
+                            <p class="experienceDate">January 2018 - July 2018</p>
+                            <i class="small material-icons">location_on</i>
+                            <p class="experienceLocation">Irvine, California</p>
+                        </div>
+                        <div class="col s9" id="uciDiv2">
+                            <p class="titleText">Coding Boot Camp</p>
+                            <p>Six months-long full stack web development boot camp focused on building practical real-world application while learning.
+                                The course covers computer science applied to Javascript, browser-based technologies,
+                                databases, Node.js, quality assurance, internet marketing, and deployment.
+                                Some of the languages/ skills learned include HTML, CSS, Javascript, React.js,
+                                    MySQL, Git, and more.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col s2"></div>
-                <div class="col s2" id="scDiv">
-                    <a href="https://law.scu.edu/" id="santaclaratitle" class="experienceTitle">Santa Clara Law School</a>
-                    <br>
-                    <i class="small material-icons dateLogo">date_range</i>
-                    <p class="experienceDate">August 2016 - May 2017</p>
-                    <i class="small material-icons">location_on</i>
-                    <p class="experienceLocation">Santa Clara, California</p>
+            <div class="row experienceRow">
+                <div class="col s8 offset-s2">
+                    <div class="row">
+                        <div class="col s3" id="scDiv">
+                            <a href="https://law.scu.edu/" id="santaclaratitle" class="experienceTitle">Santa Clara Law School</a>
+                            <br>
+                            <i class="small material-icons dateLogo">date_range</i>
+                            <p class="experienceDate">August 2016 - May 2017</p>
+                            <i class="small material-icons">location_on</i>
+                            <p class="experienceLocation">Santa Clara, California</p>
+                        </div>
+                        <div class="col s9" id="scDiv2">
+                            <p id="scText">Organizations: <br>Board Member – Asian Pacific American Law Student Association <br> Member – Women and Law
+                                Association
+                            </p>
+                        </div>
+                    </div>    
                 </div>
-                <div class="col s6" id="scDiv2">
-                    <p id="scText">Organizations: <br>Board Member – Asian Pacific American Law Student Association <br> Member – Women and Law
-                        Association
-                    </p>
-                </div>
-                <div class="col s2"></div>
             </div>
-            <div class="row">
-                <div class="col s2"></div>
-                <div class="col s2" id="purdueDiv">
-                    <a href="https://www.purdue.edu/" class="experienceTitle" id="purdueTitle">Purdue University</a>
-                    <br>
-                    <i class="small material-icons dateLogo">date_range</i>
-                    <p class="experienceDate">August 2012 - December 2015</p>
-                    <i class="small material-icons">location_on</i>
-                    <p class="experienceLocation">West Lafayette, Indiana</p>
+            <div class="row experienceRow">
+                <div class="col s8 offset-s2">
+                    <div class="row">
+                        <div class="col s3" id="purdueDiv">
+                            <a href="https://www.purdue.edu/" class="experienceTitle" id="purdueTitle">Purdue University</a>
+                            <br>
+                            <i class="small material-icons dateLogo">date_range</i>
+                            <p class="experienceDate">August 2012 - December 2015</p>
+                            <i class="small material-icons">location_on</i>
+                            <p class="experienceLocation">West Lafayette, Indiana</p>
+                        </div>
+                        <div class="col s9" id="purdueDiv2">
+                            <p id="purdueText">Bachelor of Arts, Sociology, Law and Society Concentration</p>
+                            <p id="minorsText">Minors in Psychology and Forensic Science</p>
+                            <p>Organizations: <br>President – alpha Kappa Delta Phi <br>Board Member – Multicultural Greek Council <br>Member
+                                – Asian American Association
+                            </p>
+                        </div>
+                    </div>    
                 </div>
-                <div class="col s6" id="purdueDiv2">
-                    <p id="purdueText">Bachelor of Arts, Sociology, Law and Society Concentration</p>
-                    <p id="minorsText">Minors in Psychology and Forensic Science</p>
-                    <p>Organizations: <br>President – alpha Kappa Delta Phi <br>Board Member – Multicultural Greek Council <br>Member
-                        – Asian American Association
-                    </p>
-                </div>
-                <div class="col s2"></div>
             </div>
             <!-- Work Experience Section -->
             <div class="row">
-                <div class="col s2"></div>
-                <div class="col s10">
+                <div class="col s8 offset-s2">
                     <h2 id="workHeader">Work Experience</h2>
                 </div>
             </div>
-            <div class="row">
-                <div class="col s2"></div>
-                <div class="col s2" id="trinetDiv">
-                    <a id="trinetTitle" class="experienceTitle" href="https://www.trinetsolutions.com/">Trinet Internet Solutions</a>
-                    <br>
-                    <i class="small material-icons dateLogo">date_range</i>
-                    <p class="experienceDate">June 2019 – December 2019</p>
-                    <i class="small material-icons">location_on</i>
-                    <p class="experienceLocation">Irvine, California</p>
+            <div class="row experienceRow">
+                <div class="col s8 offset-s2">
+                    <div class="row">
+                        <div class="col s3" id="trinetDiv">
+                            <a id="trinetTitle" class="experienceTitle" href="https://www.trinetsolutions.com/">Trinet Internet Solutions</a>
+                            <br>
+                            <i class="small material-icons dateLogo">date_range</i>
+                            <p class="experienceDate">June 2019 – December 2019</p>
+                            <i class="small material-icons">location_on</i>
+                            <p class="experienceLocation">Irvine, California</p>
+                        </div>
+                        <div class="col s9" id="trinetDiv2">
+                            <p class="titleText">Web Programming Intern</p>
+                            <p> • Trained in HTML, JavaScript, CSS, PHP, MySQL, XAMPP, and Drupal 7/ 8</p>
+                            <p> • Collaborated with lead programmers in incorporating designer’s vision and functionality to web applications</p>
+                            <p> • Developed HTML emails for clientele's email campaigns</p>
+                        </div>
+                    </div>    
                 </div>
-                <div class="col s6" id="trinetDiv2">
-                    <p class="titleText">Web Programming Intern</p>
-                    <p> • Trained in HTML, JavaScript, CSS, PHP, MySQL, XAMPP, and Drupal 7/ 8</p>
-                    <p> • Collaborated with lead programmers in incorporating designer’s vision and functionality to web applications</p>
-                    <p> • Developed HTML emails for clientele's email campaigns</p>
+            </div>
+            <div class="row experienceRow">
+                <div class="col s8 offset-s2">
+                    <div class="row">
+                            <div class="col s3" id="lexonetDiv">
+                                <a href="http://www.lexonet.com/" id="lexonetTitle" class="experienceTitle">Lexonet, Inc.</a>
+                                <br>
+                                <i class="small material-icons dateLogo">date_range</i>
+                                <p class="experienceDate">September 2018 – Current</p>
+                                <i class="small material-icons">location_on</i>
+                                <p class="experienceLocation">Orange, California</p>
+                            </div>
+                            <div class="col s9" id="lexonetDiv2">
+                                <p class="titleText">Full Stack Web Developer/Systems Engineer</p>
+                                <p> • Started in internship role and turned contracting role in 6 months.</p>
+                                <p> • Quality control and assurance on all websites and code review in collaboration with head developers</p>
+                                <p> • Managed web development projects to ensure excellent delivery of clientele's needs</p>
+                                <p> • Aided with the development of the official company website and full development of a clientele’s charity site</p>
+                            </div>
+                    </div>    
                 </div>
-                <div class="col s2"></div>
+            </div>
+            <div class="row experienceRow">
+                <div class="col s8 offset-s2">
+                    <div class="row">
+                        <div class="col s3" id="superiorDiv">
+                            <a href="https://www.occourts.org/employment/interns-volunteers.html" id="superiorTitle" class="experienceTitle">Orange County Superior Court</a>
+                            <br>
+                            <i class="small material-icons dateLogo">date_range</i>
+                            <p class="experienceDate">May 2017 – July 2017</p>
+                            <i class="small material-icons">location_on</i>
+                            <p class="experienceLocation">Santa Ana, California</p>
+                        </div>
+                        <div class="col s9" id="superiorDiv2">
+                            <p class="titleText">Judicial Extern</p>
+                            <p> • Directly shadowed Judge Gerald Johnston in the Probate, Mental Health, and Elder Abuse court </p>
+                            <p> • Researched and drafted law in motion memorandums under the mentorship of lead court researcher</p> 
+                            <p> • Observed trials and toured with other Judges in Criminal, Family, Civil, and Juvenile courts/facilities</p>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+            <div class="row experienceRow">
+                <div class="col s8 offset-s2">
+                    <div class="row">
+                        <div class="col s3" id="fargoDiv">
+                            <a href="http://www.irvinewfafinet.com/" id="fargoTitle" class="experienceTitle">Wells Fargo Advisors Financial Network</a>
+                            <br>
+                            <i class="small material-icons dateLogo">date_range</i>
+                            <p class="experienceDate">June 2015 – August 2015</p>
+                            <i class="small material-icons">location_on</i>
+                            <p class="experienceLocation">Irvine, California</p>
+                        </div>
+                        <div class="col s9" id="fargoDiv2">
+                            <p class="titleText">Intern</p>
+                            <p> • Facilitated client relationships through the implementation of a robust digital client contact system </p>
+                            <p> • Successful planning and execution of client seminar events and presentations for business development </p>
+                            <p> • Designated liaison for maintaining business relationship communications between the office, clients, and advisors</p>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+            <div class="row experienceRow">
+                <div class="col s8 offset-s2">
+                    <div class="row">
+                        <div class="col s3" id="jackDiv">
+                            <a href="https://jackobryanlawfirm.business.site/" id="jackTitle" class="experienceTitle">Jack O’Bryan Law Firm</a>
+                            <br>
+                            <i class="small material-icons dateLogo">date_range</i>
+                            <p class="experienceDate">September 2014 – May 2015</p>
+                            <i class="small material-icons">location_on</i>
+                            <p class="experienceLocation">West Lafayette, Indiana</p>
+                        </div>
+                        <div class="col s9" id="jackDiv2">
+                            <p class="titleText">Legal Intern</p>
+                            <p> • Analyzed client data to determine Social Security qualifications</p> 
+                            <p> • Researched legal issues regarding early Social Security qualification based off of disabilities</p> 
+                            <p> • Drafted office memorandums for court motions used in the court of law</p>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+            <div class="row experienceRow">
+                <div class="col s8 offset-s2">
+                    <div class="row">
+                        <div class="col s3" id="allDiv">
+                            <a href="http://allamericas.net/en/about.asp" id="allTitle" class="experienceTitle">All Americas, Inc.</a>
+                            <br>
+                            <i class="small material-icons dateLogo">date_range</i>
+                            <p class="experienceDate">Summer 2013 and 2014</p>
+                            <i class="small material-icons">location_on</i>
+                            <p class="experienceLocation">Walnut, California</p>
+                        </div>
+                        <div class="col s9" id="allDiv2">
+                            <p class="titleText">Camp Coordinator</p>
+                            <p> • Coordinated an approximate total of 2,000 student schedules, increasing accountability for program attendance</p>
+                            <p> • Developed provisional plans for effective classroom engagement and stimulating learning environments</p> <p>• Organized and coordinated with local businesses for daily luncheons and weekend excursion trips</p>
+                        </div>
+                    </div>    
+                </div>
             </div>
             <div class="row">
-                <div class="col s2"></div>
-                <div class="col s2" id="lexonetDiv">
-                    <a href="http://www.lexonet.com/" id="lexonetTitle" class="experienceTitle">Lexonet, Inc.</a>
-                    <br>
-                    <i class="small material-icons dateLogo">date_range</i>
-                    <p class="experienceDate">September 2018 – Current</p>
-                    <i class="small material-icons">location_on</i>
-                    <p class="experienceLocation">Orange, California</p>
+                <div class="col s8 offset-s2">
+                    <div class="row">
+                        <div class="col s3" id="digestiveDiv">
+                            <a href="http://www.herbertleemd.com/" id="digestiveTitle" class="experienceTitle">iCare Digestive Disease Center</a>
+                            <br>
+                            <i class="small material-icons dateLogo">date_range</i>
+                            <p class="experienceDate">June 2012 – July 2012</p>
+                            <i class="small material-icons">location_on</i>
+                            <p class="experienceLocation">Irvine, California </p>
+                        </div>
+                        <div class="col s9" id="digestiveDiv2">
+                            <p class="titleText">Administrative Assistant</p>
+                            <p> • Conducted initial patient intake and checkout procedures</p> 
+                            <p> • Reorganization of office guidelines to ensure added quality </p>
+                            <p> • Managed patient charts and medication orders with pharmacies, laboratories, hospitals, and doctors’ offices</p>
+                        </div>  
+                    </div>
                 </div>
-                <div class="col s6" id="lexonetDiv2">
-                    <p class="titleText">Full Stack Web Developer/Systems Engineer</p>
-                    <p> • Started in internship role and turned contracting role in 6 months.</p>
-                    <p> • Quality control and assurance on all websites and code review in collaboration with head developers</p>
-                    <p> • Managed web development projects to ensure excellent delivery of clientele's needs</p>
-                    <p> • Aided with the development of the official company website and full development of a clientele’s charity site</p>
-                </div>
-                <div class="col s2"></div>
-            </div>
-            <div class="row">
-                <div class="col s2"></div>
-                <div class="col s2" id="superiorDiv">
-                    <a href="https://www.occourts.org/employment/interns-volunteers.html" id="superiorTitle" class="experienceTitle">Orange County Superior Court</a>
-                    <br>
-                    <i class="small material-icons dateLogo">date_range</i>
-                    <p class="experienceDate">May 2017 – July 2017</p>
-                    <i class="small material-icons">location_on</i>
-                    <p class="experienceLocation">Santa Ana, California</p>
-                </div>
-                <div class="col s6" id="superiorDiv2">
-                    <p class="titleText">Judicial Extern</p>
-                    <p> • Directly shadowed Judge Gerald Johnston in the Probate, Mental Health, and Elder Abuse court </p>
-                    <p> • Researched and drafted law in motion memorandums under the mentorship of lead court researcher</p> 
-                    <p> • Observed trials and toured with other Judges in Criminal, Family, Civil, and Juvenile courts/facilities</p>
-                </div>
-                <div class="col s2"></div>
-            </div>
-            <div class="row">
-                <div class="col s2"></div>
-                <div class="col s2" id="fargoDiv">
-                    <a href="http://www.irvinewfafinet.com/" id="fargoTitle" class="experienceTitle">Wells Fargo Advisors Financial Network</a>
-                    <br>
-                    <i class="small material-icons dateLogo">date_range</i>
-                    <p class="experienceDate">June 2015 – August 2015</p>
-                    <i class="small material-icons">location_on</i>
-                    <p class="experienceLocation">Irvine, California</p>
-                </div>
-                <div class="col s6" id="fargoDiv2">
-                    <p class="titleText">Intern</p>
-                    <p> • Facilitated client relationships through the implementation of a robust digital client contact system </p>
-                    <p> • Successful planning and execution of client seminar events and presentations for business development </p>
-                    <p> • Designated liaison for maintaining business relationship communications between the office, clients, and advisors</p>
-                </div>
-                <div class="col s2"></div>
-            </div>
-            <div class="row">
-                <div class="col s2"></div>
-                <div class="col s2" id="jackDiv">
-                    <a href="https://jackobryanlawfirm.business.site/" id="jackTitle" class="experienceTitle">Jack O’Bryan Law Firm</a>
-                    <br>
-                    <i class="small material-icons dateLogo">date_range</i>
-                    <p class="experienceDate">September 2014 – May 2015</p>
-                    <i class="small material-icons">location_on</i>
-                    <p class="experienceLocation">West Lafayette, Indiana</p>
-                </div>
-                <div class="col s6" id="jackDiv2">
-                    <p class="titleText">Legal Intern</p>
-                    <p> • Analyzed client data to determine Social Security qualifications</p> 
-                    <p> • Researched legal issues regarding early Social Security qualification based off of disabilities</p> 
-                    <p> • Drafted office memorandums for court motions used in the court of law</p>
-                </div>
-                <div class="col s2"></div>
-            </div>
-            <div class="row">
-                <div class="col s2"></div>
-                <div class="col s2" id="allDiv">
-                    <a href="http://allamericas.net/en/about.asp" id="allTitle" class="experienceTitle">All Americas, Inc.</a>
-                    <br>
-                    <i class="small material-icons dateLogo">date_range</i>
-                    <p class="experienceDate">Summer 2013 and 2014</p>
-                    <i class="small material-icons">location_on</i>
-                    <p class="experienceLocation">Walnut, California</p>
-                </div>
-                <div class="col s6" id="allDiv2">
-                    <p class="titleText">Camp Coordinator</p>
-                    <p> • Coordinated an approximate total of 2,000 student schedules, increasing accountability for program attendance</p>
-                    <p> • Developed provisional plans for effective classroom engagement and stimulating learning environments</p> <p>• Organized and coordinated with local businesses for daily luncheons and weekend excursion trips</p>
-                </div>
-                <div class="col s2"></div>
-            </div>
-            <div class="row">
-                <div class="col s2"></div>
-                <div class="col s2" id="digestiveDiv">
-                    <a href="http://www.herbertleemd.com/" id="digestiveTitle" class="experienceTitle">iCare Digestive Disease Center</a>
-                    <br>
-                    <i class="small material-icons dateLogo">date_range</i>
-                    <p class="experienceDate">June 2012 – July 2012</p>
-                    <i class="small material-icons">location_on</i>
-                    <p class="experienceLocation">Irvine, California </p>
-                </div>
-                <div class="col s6" id="digestiveDiv2">
-                    <p class="titleText">Administrative Assistant</p>
-                    <p> • Conducted initial patient intake and checkout procedures</p> 
-                    <p> • Reorganization of office guidelines to ensure added quality </p>
-                    <p> • Managed patient charts and medication orders with pharmacies, laboratories, hospitals, and doctors’ offices</p>
-                </div>
-                <div class="col s2"></div>
             </div>
         </div>
     </section>
-
     <!-- Skills Section -->
     <section class="scrollspy" id="skillsSection">
         <div class="divSpacing greyDiv">
             <div class="row">
-                <div class="col s2"></div>
-                <div class="col s8 center-align topicDiv">
+                <div class="col s8 offset-s2 center-align topicDiv">
                     <h1 class="center-align">Skills</h1>
                     <p class="center-align description">"A closed mind is already defeated." - Zenyatta from Overwatch</p>
                 </div>
-                <div class="col s2"></div>
             </div>
             <div class="row skillsHeaders">
-                <div class="col s2"></div>
-                <div class="col s7 left-align">
+                <div class="col s8 offset-s2 left-align">
                     <h3>Programming Languages</h3>
                 </div>
             </div>
             <div class="row">
-                <div class="col s2"></div>
-                <div class="col s8 cardDiv">
+                <div class="col s8 offset-s2 cardDiv">
                     <div class="card">
                         <div class="card-image">
-                            <img src="./assets/images/logos/bash-logo.png">
+                            <img src="./assets/images/logos/bash-logo.png" alt="Bash Logo">
                         </div>
                         <div class="cardNameDiv">
                             <a class="skillName" href="https://www.gnu.org/software/bash/">Bash</a>
@@ -361,7 +370,7 @@
                     </div>
                     <div class="card">
                         <div class="card-image">
-                            <img id="cssPic" src="./assets/images/logos/css4-logo.png">
+                            <img id="cssPic" src="./assets/images/logos/css4-logo.png" alt="CSS4 Logo">
                         </div>
                         <div class="cardNameDiv">
                             <a class="skillName" href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets">CSS4</a>
@@ -369,7 +378,7 @@
                     </div>
                     <div class="card">
                             <div class="card-image">
-                                <img id="" src="./assets/images/logos/csharp-logo.jpg">
+                                <img id="" src="./assets/images/logos/csharp-logo.jpg" alt="C# Logo">
                             </div>
                             <div class="cardNameDiv">
                                 <a class="skillName" href="https://docs.microsoft.com/en-us/dotnet/csharp/">C#</a>
@@ -377,7 +386,7 @@
                         </div>
                     <div class="card">
                         <div class="card-image">
-                            <img src="./assets/images/logos/html5-logo.png">
+                            <img src="./assets/images/logos/html5-logo.png" alt="HTML5 Logo">
                         </div>
                         <div class="cardNameDiv">
                             <a class="skillName" href="https://www.w3.org/html/">Html5</a>
@@ -385,7 +394,7 @@
                     </div>
                     <div class="card">
                         <div class="card-image">
-                            <img src="./assets/images/logos/javascript-logo.png">
+                            <img src="./assets/images/logos/javascript-logo.png" alt="JavaScript Logo">
                         </div>
                         <div class="cardNameDiv">
                             <a class="skillName" href="https://www.javascript.com/">Javascript</a>
@@ -393,7 +402,7 @@
                     </div>
                     <div class="card">
                             <div class="card-image">
-                                <img id="phpPic" src="./assets/images/logos/php-logo.png">
+                                <img id="phpPic" src="./assets/images/logos/php-logo.png" alt="PHP Logo">
                             </div>
                             <div class="cardNameDiv">
                                 <a class="skillName" href="https://www.php.net/">PHP</a>
@@ -401,27 +410,24 @@
                         </div>
                     <div class="card">
                             <div class="card-image">
-                                <img src="./assets/images/logos/sql-logo.png">
+                                <img src="./assets/images/logos/sql-logo.png" alt="SQL Logo">
                             </div>
                             <div class="cardNameDiv">
                                 <a class="skillName" href="https://en.wikipedia.org/wiki/SQL">Sql</a>
                             </div>
                         </div>
-                    <div class="col s2"></div>
                 </div>
             </div>
             <div class="row skillsHeaders">
-                <div class="col s2"></div>
-                <div class="col s10 left-align">
+                <div class="col s8 offset-s2 left-align">
                     <h3>Tools</h3>
                 </div>
             </div>
             <div class="row">
-                <div class="col s2"></div>
-                <div class="col s8 cardDiv">
+                <div class="col s8 offset-s2 cardDiv">
                     <div class="card">
                         <div class="card-image">
-                            <img id="awsPic" src="./assets/images/logos/aws-logo.png">
+                            <img id="awsPic" src="./assets/images/logos/aws-logo.png" alt="AWS Logo">
                         </div>
                         <div class="cardNameDiv">
                             <a class="skillName" href="https://aws.amazon.com/">AWS</a>
@@ -429,7 +435,7 @@
                     </div>
                     <div class="card">
                         <div class="card-image">
-                            <img id="mampPic" src="./assets/images/logos/mamp-logo.png">
+                            <img id="mampPic" src="./assets/images/logos/mamp-logo.png" alt="MAMP Logo">
                         </div>
                         <div class="cardNameDiv">
                             <a class="skillName" href="https://www.mamp.info/en/">Mamp</a>
@@ -437,7 +443,7 @@
                     </div>
                     <div class="card">
                         <div class="card-image">
-                            <img id="nodePic" src="./assets/images/logos/node-logo.png">
+                            <img id="nodePic" src="./assets/images/logos/node-logo.png" alt="Node Logo">
                         </div>
                         <div class="cardNameDiv">
                             <a class="skillName" href="https://nodejs.org/en/">Node.JS</a>
@@ -445,7 +451,7 @@
                     </div>
                     <div class="card">
                         <div class="card-image">
-                            <img src="./assets/images/logos/sublime-logo.png">
+                            <img src="./assets/images/logos/sublime-logo.png" alt="Sublime Logo">
                         </div>
                         <div class="cardNameDiv">
                             <a class="skillName" href="https://www.sublimetext.com/">Sublime</a>
@@ -453,7 +459,7 @@
                     </div>
                     <div class="card">
                         <div class="card-image">
-                            <img src="./assets/images/logos/vs-code-logo.png">
+                            <img src="./assets/images/logos/vs-code-logo.png" alt="Visual Studio Code Logo">
                         </div>
                         <div class="cardNameDiv">
                             <a class="skillName" href="https://code.visualstudio.com/">VS Code</a>
@@ -461,18 +467,16 @@
                     </div>
                     <div class="card">
                         <div class="card-image">
-                            <img src="./assets/images/logos/gitLogo.png">
+                            <img src="./assets/images/logos/gitLogo.png" alt="Git Logo">
                         </div>
                         <div class="cardNameDiv">
                             <a class="skillName" href="#">Git</a>
                         </div>
                     </div>
                 </div>
-                <div class="col s2"></div>
             </div>
             <div class="row skillsHeaders">
-                <div class="col s2"></div>
-                <div class="col s10 left-align">
+                <div class="col s8 offset-s2 left-align">
                     <h3>Frameworks</h3>
                 </div>
             </div>
@@ -481,7 +485,7 @@
                 <div class="col s8 cardDiv">
                     <div class="card">
                         <div class="card-image">
-                            <img id="expressPic" src="./assets/images/logos/express-logo.png">
+                            <img id="expressPic" src="./assets/images/logos/express-logo.png" alt="Express Logo">
                         </div>
                         <div class="cardNameDiv">
                             <a class="skillName" href="https://expressjs.com/">Express</a>
@@ -489,7 +493,7 @@
                     </div>
                     <div class="card">
                         <div class="card-image">
-                            <img src="./assets/images/logos/bootstrap-logo.png">
+                            <img src="./assets/images/logos/bootstrap-logo.png" alt="Bootstrap Logo">
                         </div>
                         <div class="cardNameDiv">
                             <a class="skillName" href="https://getbootstrap.com/">Bootstrap</a>
@@ -497,7 +501,7 @@
                     </div>
                     <div class="card">
                         <div class="card-image">
-                            <img id="materializePic" src="./assets/images/logos/materialize-logo.png">
+                            <img id="materializePic" src="./assets/images/logos/materialize-logo.png" alt="Materialize Logo">
                         </div>
                         <div class="cardNameDiv">
                             <a class="skillName" href="https://materializecss.com/">Materialize</a>
@@ -505,7 +509,7 @@
                     </div>
                     <div class="card">
                         <div class="card-image handlebarImage">
-                            <img id="handlebarPic" src="./assets/images/logos/handlebars-js-logo.png">
+                            <img id="handlebarPic" src="./assets/images/logos/handlebars-js-logo.png" alt="Handlebars.js Logo">
                         </div>
                         <div class="cardNameDiv">
                             <a class="skillName" id="handlebarsText" href="https://handlebarsjs.com/">Handlebars.js</a>
@@ -513,7 +517,7 @@
                     </div>
                     <div class="card">
                         <div class="card-image handlebarImage">
-                            <img id="vuePic" src="./assets/images/logos/vuejs-logo.png">
+                            <img id="vuePic" src="./assets/images/logos/vuejs-logo.png" alt="Vue.js Logo">
                         </div>
                         <div class="cardNameDiv">
                             <a class="skillName" href="https://vuejs.org/">Vue.js</a>
@@ -523,8 +527,7 @@
                 <div class="col s2"></div>
             </div>
             <div class="row skillsHeaders">
-                <div class="col s2"></div>
-                <div class="col s10 left-align">
+                <div class="col s8 offset-s2 left-align">
                     <h3>Databases</h3>
                 </div>
             </div>
@@ -533,34 +536,32 @@
                 <div class="col s10 cardDiv">
                     <div class="card">
                         <div class="card-image">
-                            <img src="./assets/images/logos/mysql-logo.jpg">
+                            <img src="./assets/images/logos/mysql-logo.jpg" alt="MySql Logo">
                         </div>
                         <div class="cardNameDiv">
                             <a class="skillName" href="https://www.mysql.com/">MySql</a>
                         </div>
                     </div>
                     <div class="card">
-                            <div class="card-image">
-                                <img id="mongodbPic" src="./assets/images/logos/mongodb-logo.png">
-                            </div>
-                            <div class="cardNameDiv">
-                                <a class="skillName" href="https://www.mongodb.com/">MongoDB</a>
-                            </div>
+                        <div class="card-image">
+                            <img id="mongodbPic" src="./assets/images/logos/mongodb-logo.png" alt="MongoDB Logo">
                         </div>
+                        <div class="cardNameDiv">
+                            <a class="skillName" href="https://www.mongodb.com/">MongoDB</a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="row skillsHeaders">
-                <div class="col s2"></div>
-                <div class="col s10 left-align">
+                <div class="col s8 offset-s2 left-align">
                     <h3>Libraries</h3>
                 </div>
             </div>
             <div class="row">
-                <div class="col s2"></div>
-                <div class="col s8 cardDiv">
+                <div class="col s8 offset-s2 cardDiv">
                     <div class="card">
                         <div class="card-image">
-                            <img src="./assets/images/logos/jquery-logo.png">
+                            <img src="./assets/images/logos/jquery-logo.png" alt="jQuery Logo">
                         </div>
                         <div class="cardNameDiv">
                             <a class="skillName" href="https://jquery.com/">jQuery</a>
@@ -568,7 +569,7 @@
                     </div>
                     <div class="card">
                         <div class="card-image">
-                            <img id="reactPic" src="./assets/images/logos/react-logo.png">
+                            <img id="reactPic" src="./assets/images/logos/react-logo.png" alt="React.Js Logo">
                         </div>
                         <div class="cardNameDiv">
                             <a class="skillName" href="#">React.Js</a>
@@ -577,17 +578,15 @@
                 </div>
             </div>
             <div class="row skillsHeaders">
-                <div class="col s2"></div>
-                <div class="col s10 left-align">
+                <div class="col s8 offset-s2 left-align">
                     <h3>Content Management Systems</h3>
                 </div>
             </div>
             <div class="row">
-                <div class="col s2"></div>
-                <div class="col s8 cardDiv">
+                <div class="col s8 offset-s2 cardDiv">
                     <div class="card">
                         <div class="card-image">
-                            <img src="./assets/images/logos/wordpress-logo.png">
+                            <img src="./assets/images/logos/wordpress-logo.png" alt="Wordpress Logo">
                         </div>
                         <div class="cardNameDiv">
                             <a class="skillName" href="https://wordpress.com">Wordpress</a>
@@ -595,7 +594,7 @@
                     </div>
                     <div class="card">
                         <div class="card-image">
-                            <img id="drupalPic" src="./assets/images/logos/drupalLogo.png">
+                            <img id="drupalPic" src="./assets/images/logos/drupalLogo.png" alt="Drupal Logo">
                         </div>
                         <div class="cardNameDiv">
                             <a class="skillName" href="#">Drupal</a>
@@ -605,103 +604,100 @@
             </div>
         </div>
     </section>
-
     <!-- Projects Section -->
     <section class="scrollspy" id="projectsSection">
         <div class="divSpacing">
             <div class="row">
-                <div class="col s2"></div>
-                <div class="col s8 center-align topicDiv">
+                <div class="col s8 offset-s2 center-align topicDiv">
                     <h1 class="center-align">Projects</h1>
                     <p class="center-align description">"Leadership is working with goals and vision; management is working with objectives." - Russel L. Honoré</p>
                 </div>
-                <div class="col s2"></div>
             </div>
             <div class="row">
-                <div class="col s1"></div>
-                <div class="col s5 center-align">
-                    <div class="portfolioDiv" id="project1">
-                        <a href="http://yba.lexonet.com/">
-                            <img class="screenImg" src="./assets/images/screen.png">
-                            <img class="portfolioPic" id="static" src="./assets/images/portfolio/ybaSS.png">
-                        </a>
-                    </div>
+                <div class="col s10 offset-s1">
+                    <div class="row projectRow">
+                        <div class="col s6 center-align projectDiv">
+                            <div class="portfolioDiv" id="project1">
+                                <a href="http://yba.lexonet.com/">
+                                    <img class="screenImg" src="./assets/images/screen.png" alt="Laptop Screem Image">
+                                    <img class="portfolioPic" id="static" src="./assets/images/portfolio/ybaSS.png" alt="Screenshot of YBA Site">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col s6 center-align projectDiv" id="project2">
+                            <div class="portfolioDiv">
+                                <a href="https://afternoon-hollows-12505.herokuapp.com/">
+                                    <img class="screenImg" src="./assets/images/screen.png" alt="Laptop Screem Image">
+                                    <img class="portfolioPic" id="static" src="./assets/images/portfolio/letsPrepSS.png" alt="Screenshot of Lets Prep Site">
+                                    <img class="portfolioPic" id="active" src="./assets/images/portfolio/gifs/letsPrep.gif" alt="Gif of Lets Prep Site"> 
+                                </a>
+                            </div>
+                        </div>
+                    </div>    
                 </div>
-                <div class="col s5 center-align" id="project2">
-                    <div class="portfolioDiv">
-                        <a href="https://afternoon-hollows-12505.herokuapp.com/">
-                            <img class="screenImg" src="./assets/images/screen.png">
-                            <img class="portfolioPic" id="static" src="./assets/images/portfolio/letsPrepSS.png">
-                            <img class="portfolioPic" id="active" src="./assets/images/portfolio/gifs/letsPrep.gif"> 
-                        </a>
-                    </div>
-                </div>
-                <div class="col s1 center-align"></div>
             </div>
             <div class="row">
-                <div class="col s1"></div>
-                <div class="col s5 center-align" id="project3">
-                    <div class="portfolioDiv">
-                        <a href="https://jphamxuan.github.io/pick-a-pal/">
-                            <img class="screenImg" src="./assets/images/screen.png">
-                            <img class="portfolioPic" id="static" src="./assets/images/portfolio/petFinder.png">
-                            <img class="portfolioPic" id="active" src="./assets/images/portfolio/gifs/petFinder.gif">
-                        </a>
-                    </div>
+                <div class="col s10 offset-s1">
+                    <div class="row projectRow">
+                        <div class="col s6 center-align projectDiv" id="project3">
+                            <div class="portfolioDiv">
+                                <a href="https://jphamxuan.github.io/pick-a-pal/">
+                                    <img class="screenImg" src="./assets/images/screen.png" alt="Laptop Screem Image">
+                                    <img class="portfolioPic" id="static" src="./assets/images/portfolio/petFinder.png" alt="Screenshot of Pet Finder Site">
+                                    <img class="portfolioPic" id="active" src="./assets/images/portfolio/gifs/petFinder.gif" alt="Gif of Pet Finder Site">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col s6 center-align projectDiv" id="project4">
+                            <div class="portfolioDiv">
+                                <a href="https://chrisyforshort.github.io/TriviaGame/">
+                                    <img class="screenImg" src="./assets/images/screen.png" alt="Laptop Screem Image">
+                                    <img class="portfolioPic" src="./assets/images/portfolio/triviaGameSS.png" alt="Screenshot of Trivia Game Site">
+                                </a>
+                            </div>
+                        </div>
+                    </div>    
                 </div>
-                <div class="col s5 center-align" id="project4">
-                    <div class="portfolioDiv">
-                        <a href="https://chrisyforshort.github.io/TriviaGame/">
-                            <img class="screenImg" src="./assets/images/screen.png">
-                            <img class="portfolioPic" src="./assets/images/portfolio/triviaGameSS.png">
-                        </a>
-                    </div>
-                </div>
-                <div class="col s1 center-align"></div>
             </div>
             <div class="row">
-                <div class="col s1"></div>
-                <div class="col s5 center-align" id="project5">
-                    <div class="portfolioDiv">
-                        <a href="https://chrisyforshort.github.io/Hangman-Game/">
-                            <img class="screenImg" src="./assets/images/screen.png">
-                            <img class="portfolioPic" src="./assets/images/portfolio/ArcadeHangmanSS.png">
-                        </a>
+                <div class="col s10 offset-s1">
+                    <div class="row projectRow">
+                        <div class="col s6 center-align projectDiv" id="project5">
+                            <div class="portfolioDiv">
+                                <a href="https://chrisyforshort.github.io/Hangman-Game/">
+                                    <img class="screenImg" src="./assets/images/screen.png" alt="Laptop Screem Image">
+                                    <img class="portfolioPic" src="./assets/images/portfolio/ArcadeHangmanSS.png" alt="Screenshot of Arcade Hangman Site">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col s6 center-align projectDiv" id="project6">
+                            <div class="portfolioDiv">
+                                <a href="https://chrisyforshort.github.io/Overwatch_RPG/">
+                                    <img class="screenImg" src="./assets/images/screen.png" alt="Laptop Screem Image">
+                                    <img class="portfolioPic" src="./assets/images/portfolio/overwatchRPGSS.png" alt="Screenshot of Overwatch RPGSS Site">
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col s5 center-align" id="project6">
-                    <div class="portfolioDiv">
-                        <a href="https://chrisyforshort.github.io/Overwatch_RPG/">
-                            <img class="screenImg" src="./assets/images/screen.png">
-                            <img class="portfolioPic" src="./assets/images/portfolio/overwatchRPGSS.png">
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="col s1 center-align"></div>
+                </div>    
             </div>
         </div>
     </section>
-
     <!-- Interests Section -->
     <section class="scrollspy" id="interestsSection">
         <div class="tanDiv">
             <div class="row">
-                <div class="col s2"></div>
-                <div class="col s8 center-align topicDiv">
+                <div class="col s8 offset-s2 center-align topicDiv">
                     <h1 class="center-align" id="interestTitleHeader">Interests</h1>
                     <p class="center-align description">"With every year of playing, you want to relax one more muscle. Why? Because the more tense you are the
                         less you can hear." - Yo-Yo Ma</p>
                 </div>
-                <div class="col s2"></div>
             </div>
             <div class="row" id="interestsRow">
-                <div class="col s3"></div>
-                <div class="col s6 center-align">
+                <div class="col s6 offset-s3">
                     <div class="left-align row">
                         <div class="col s3">
-                            <img class="interestLogo" id="scubaDivingLogo" src="./assets/images/logos/scubaDivingLogo.png">
+                            <img class="interestLogo" id="scubaDivingLogo" src="./assets/images/logos/scubaDivingLogo.png" alt="Scuba Diver Icon">
                         </div>
                         <div class="col s9 interestDiv" id="scubaDiv">
                             <h3 id="sportsHeader">Sports</h3>
@@ -709,67 +705,61 @@
                                 I was once in a Tae-Kwon-Do commerical when I was younger.</p>
                         </div>
                     </div>
-                    <div class="right-align row">
+                    <div class="row right-align">
                         <div class="col s9 interestDiv" id="entertainmentDiv">
                             <h3 id="entertainmentHeader">Entertainment</h3>
-                            <p>When I'm a couch potato, I enjoy video games, movies, or binge watching shows. My favorite games
+                            <p>When I'm a couch potato I enjoy video games, movies, or binge watching shows. My favorite games
                                 include Tapper, Stardew Valley, and the Assasin's Creed series. I also manage a lofi hip-hop artist.</p>
                         </div>
                         <div class="col s3">
-                            <img class="interestLogo" id="videoGamesLogo" src="./assets/images/logos/videoGameIcon.png">
+                            <img class="interestLogo" id="videoGamesLogo" src="./assets/images/logos/videoGameIcon.png" alt="Gaming Controller Icon">
                         </div>
                     </div>
                     <div class="left-align row">
                         <div class="col s3">
-                            <img class="interestLogo" id="travelLogo" src="./assets/images/logos/travelIcon.png">
+                            <img class="interestLogo" id="travelLogo" src="./assets/images/logos/travelIcon.png" alt="Airplane on a Globe Icon">
                         </div>
                         <div class="col s9 interestDiv" id="travelDiv">
                             <h3 id="travelHeader">Traveling</h3>
                             <p>Traveling to broaden experiences and one's understanding of the world is crucial to me. I've
                                 also have lived abroad in Shanghai, China and Taipei, Taiwan before.</p>
                         </div>
-                        <div class="right-align row">
-                            <div class="col s9 interestDiv" id="joDiv">
-                                <h3 id="joHeader">Josephine Marcy <span id="wu">Wu</span></h3>
-                                <p>My French Bulldog, baby Jo, is my pride and joy of a daughter. She's mischievous but also
-                                    the best cuddle buddy out there. Jo's nemesis is the vacuum cleaner.</p>
-                            </div>
-                            <div class="col s3">
-                                <img class="interestLogo" id="joLogo" src="./assets/images/logos/frenchBulldogLogo.png">
-                            </div>
+                    </div>
+                    <div class="right-align row">
+                        <div class="col s9 interestDiv" id="joDiv">
+                            <h3 id="joHeader">Josephine Marcy <span id="wu">Wu</span></h3>
+                            <p>My French Bulldog, baby Jo, is my pride and joy of a daughter. She's mischievous but also
+                                the best cuddle buddy out there. Jo's nemesis is the vacuum cleaner.</p>
                         </div>
-                        <div class="col s3 center-align">
+                        <div class="col s3">
+                            <img class="interestLogo" id="joLogo" src="./assets/images/logos/frenchBulldogLogo.png" alt="French Bulldog Icon">
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
     </section>
-
     <!-- Contact Section -->
     <section class="scrollspy" id="contactSection">
         <div class="contactDiv">
             <div class="row">
-                <div class="col s2"></div>
-                <div class="col s8 center-align topicDiv">
+                <div class="col s8 offset-s2 center-align topicDiv">
                     <h1 class="center-align contact">Contact</h1>
                     <p id="contactDescription" class="center-align description">"But here's my number, so call me maybe." - Carly Rae Jepsen</p>
                 </div>
-                <div class="col s2"></div>
             </div>
             <div class="row" id="contactLogoRow">
-                <div class="col s2"></div>
-                <div class="col s8 center-align" id="contactDiv">
-                    <img class="contactLogos" id="gmailLogo" src="./assets/images/logos/gmail.png">
+                <div class="col s6 offset-s4" id="contactDiv">
+                    <img class="contactLogos" id="gmailLogo" src="./assets/images/logos/gmail.png" alt="Gmail Logo">
                     <a href="https://linkedin.com/in/christinasarahwu">
-                        <img class="contactLogos" src="./assets/images/logos/linkedin.png">
+                        <img class="contactLogos" src="./assets/images/logos/linkedin.png" alt="LinkedIn Logo">
                     </a>
                     <a href="https://github.com/chrisyforshort">
-                        <img class="contactLogos"  id="githubLogo" src="./assets/images/logos/github.png">
+                        <img class="contactLogos"  id="githubLogo" src="./assets/images/logos/github.png" alt="GitHub Logo">
                     </a>
                     <a href="https://stackoverflow.com/users/9217351/christina-wu">
-                        <img class="contactLogos" id="stackoverflowLogo" src="./assets/images/logos/stackOverflow.png">
+                        <img class="contactLogos" id="stackoverflowLogo" src="./assets/images/logos/stackOverflow.png" alt="Stack Overflow Logo">
                     </a>
-                </div>
-                <div class="col s2 center-align">
                 </div>
             </div>
         </div>
