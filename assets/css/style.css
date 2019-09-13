@@ -420,6 +420,10 @@ nav {
         left: 111px;
         top: 82px;
     } 
+
+    .row .col.offset-s4 {
+        margin-left: 28%;
+    }
 }
 
 @media (max-width: 1209px) {
@@ -441,6 +445,13 @@ nav {
     } 
 }
 
+@media (max-width: 1018px) {
+    .row .col.offset-s4 {
+        margin-left: 24%;
+        width: 700px;
+    }
+}
+
 @media (max-width: 977px) {
     .projectRow{
         flex-direction: column;
@@ -450,6 +461,37 @@ nav {
 
     .portfolioDiv {
         margin-left: -208px;
+    }
+}
+
+@media (max-width: 908px) {
+    .row .col.offset-s4 {
+        margin-left: 20%;
+    }
+}
+
+@media (max-width: 792px) {
+    .row .col.offset-s4 {
+        margin-left: 15%;
+    }
+}
+
+@media (max-width: 701px) {
+    .row .col.offset-s4 {
+        margin-left: 20%;
+    }
+
+    .contactLogos {
+        width: 65px;
+        height: 65px;
+        margin: 10px;
+    }
+
+    #gmailLogo {
+        width: 90px;
+        height: 84px;
+        padding-top: 4px;
+        margin-bottom: 3px;
     }
 }
 
@@ -471,6 +513,10 @@ nav {
         left: 63px;
         top: 28px;
     } 
+
+    .row .col.offset-s4 {
+        margin-left: 17.5%;
+    }
 }
 
 @media (max-width: 573px) {
@@ -481,6 +527,16 @@ nav {
 
     .portfolioDiv {
         margin-left: -155px;
+    }
+
+    .row .col.offset-s4 {
+        margin-left: 15%;
+    }
+}
+
+@media (max-width: 573px) {
+    .row .col.offset-s4 {
+        margin-left: 9.5%;
     }
 }
 
