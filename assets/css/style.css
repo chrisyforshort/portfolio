@@ -389,10 +389,98 @@ nav {
     bottom: 60%;
 }
 
+@media (max-width: 1619px) {
+    .portfolioDiv {
+        width: 600px;
+        height: 450px;
+    }
+    
+    .portfolioPic {
+        width: 335px;
+        height: 205px;
+        left: 133px;
+        top: 110px;
+    } 
+}
+
+@media (max-width: 1450px) {
+    .portfolioDiv {
+        width: 500px;
+        height: 350px;
+    }
+
+    .screenImg {
+        width: 320px;
+        height: 200px;
+    }
+    
+    .portfolioPic {
+        width: 278px;
+        height: 162px;
+        left: 111px;
+        top: 82px;
+    } 
+}
+
+@media (max-width: 1209px) {
+    .portfolioDiv {
+        width: 400px;
+        height: 250px;
+    }
+
+    .screenImg {
+        width: 270px;
+        height: 150px;
+    }
+    
+    .portfolioPic {
+        width: 234px;
+        height: 121px;
+        left: 83px;
+        top: 55px;
+    } 
+}
+
+@media (max-width: 977px) {
+    .projectRow{
+        flex-direction: column;
+        flex-wrap: wrap;
+        display: flex;
+    }
+
+    .portfolioDiv {
+        margin-left: -208px;
+    }
+}
+
+@media (max-width: 622px) {
+    .portfolioDiv {
+        width: 300px;
+        height: 160px;
+        margin-left: -160px;
+    }
+
+    .screenImg {
+        width: 200px;
+        height: 110px;
+    }
+    
+    .portfolioPic {
+        width: 174px;
+        height: 90px;
+        left: 63px;
+        top: 28px;
+    } 
+}
+
 @media (max-width: 573px) {
     .profilePic {
         height: 272px;
         width: 323px;   
+    }
+
+    .portfolioDiv {
+        margin-left: -155px;
     }
 }
 
@@ -623,7 +711,6 @@ nav {
 
     .row .col.s6.projectDiv {
         margin-left: -27px;
-
     }
     
     /* Interests Section CSS */
