@@ -453,6 +453,14 @@ nav {
 }
 
 @media (max-width: 977px) {
+    /* .row .col.s3.experienceDiv1 {
+        width: 200px;
+    } */
+
+    /* .row .col.s9.experienceDiv2 {
+        width: 300px;
+    } */
+
     .projectRow{
         flex-direction: column;
         flex-wrap: wrap;
