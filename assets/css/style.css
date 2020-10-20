@@ -389,6 +389,35 @@ nav {
     bottom: 60%;
 }
 
+/* Social Media Portfolio Page */
+.demographicsList {
+    font-size: 14px;
+    font-style: italic;
+    margin-left: 45px;
+    margin-top: -10px;
+    margin-bottom: 35px;
+}
+
+.socialMediaVisualPhoto {
+    width: 210px;
+    height: 210px;
+    margin: 10px;
+}
+
+.socialMediaVisualPhotoUzu {
+    width: 335px;
+    height: 210px;
+    margin: 10px;
+}
+
+.socialMediaVisualPhotoUzurow2 {
+    height: 350px;
+}
+
+#ceoParentInstagramSS {
+    height: 380px;
+}
+
 @media (max-width: 1619px) {
     .portfolioDiv {
         width: 600px;
@@ -934,10 +963,10 @@ nav {
         /* margin-left: 20px; */
     }
 
-    #contactLogoRow {
+    /* #contactLogoRow { */
         /* margin-bottom: 0px; */
         /* padding-bottom: 50px; */
-    }
+    /* } */
 }
 
 /* iPhone X Responsiveness */
